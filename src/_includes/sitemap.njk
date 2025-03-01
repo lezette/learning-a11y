@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Standard Pages -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for item in collections.page %}
   <url>
     <loc>{{ config.url }}{{ item.url }}</loc>
     <lastmod>{{ item.data.modified | sitemapDate }}</lastmod>
     <priority>{% if item.url == '/' %}1.0{% else %}0.8{% endif %}</priority>
+  </url>
+  {% endfor %}
+
+  <!-- Blog Posts -->
+  {% for post in collections.was %}
+  <url>
+    <loc>{{ config.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | sitemapDate }}</lastmod>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
+
+  <!-- Tag Pages -->
+
+  {% for tag in collections.tagList %}
+  <url>
+    <loc>{{ config.url }}/tags/{{ tag }}/</loc>
+    <lastmod>{{ tag.date | sitemapDate }}</lastmod>
+    <priority>0.5</priority>
   </url>
   {% endfor %}
 </urlset>
