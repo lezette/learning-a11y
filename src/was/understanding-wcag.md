@@ -7,4 +7,6 @@ date: "2025-03-01"
 layout: "blog"
 ---
 
-There are many accessibility testing tools that help developers...
+<div class="text-xl">
+  Web accessibility is all about making the web usable for everyone... 
+<div>

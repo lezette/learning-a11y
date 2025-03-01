@@ -7,4 +7,6 @@ permalink: "was/{{ title | slug }}/"
 layout: "blog.njk"
 ---
 
-Web accessibility is all about making the web usable for everyone...
+<div class="text-xl">
+  Web accessibility is all about making the web usable for everyone... 
+<div>

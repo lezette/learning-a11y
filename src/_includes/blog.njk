@@ -1,11 +1,22 @@
 {% extends "base.njk" %} {% block content %}
-<article class="prose prose-lg dark:prose-invert mx-auto my-10 px-5">
+<article class="my-10 p-5 border-t-2 border-gray-200 dark:border-gray-800">
   <header>
-    <h1 class="text-4xl font-bold">{{ title }}</h1>
-    <p class="text-gray-500 text-sm">
+    <h3 class="text-4xl font-bold">{{ title }}</h3>
+    <p class="text-gray-500 text-base my-2">
       Published on <time datetime="{{ date }}">{{ date | date }}</time>
     </p>
   </header>
+
+  {% if tags %}
+  <span class="">
+    {%- for tag in tags -%}
+    <a
+      href="/tags/{{ tag }}/"
+      class="text-lg font-semibold dark:text-[#fbdc13] text-pink-500 underline inline-block mr-2"
+      >#{{ tag }}</a
+    >{% if not loop.last %} {% endif %} {%- endfor -%}
+  </span>
+  {% endif %}
 
   <div class="mt-6">{{ content | safe }}</div>
 </article>
