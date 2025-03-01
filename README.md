@@ -67,3 +67,8 @@ Hosted on **Netlify** and built with **Eleventy (11ty) + Tailwind CSS**.
 - [LinkedIn](https://www.linkedin.com/in/elizabeth-meshioye/)
 
 Let’s make the web more accessible together! 🚀
+
+## Todo
+
+- Add next/previous post navigation
+- Show tag counts (e.g., #was (5 posts)) in the tags list

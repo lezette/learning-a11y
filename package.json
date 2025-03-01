@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A personal blog documenting my accessibility journey, including WCAG 2.2, WAS certification prep, and CPWA.",
   "scripts": {
-    "start": "concurrently \"eleventy --serve\" \"postcss src/css/styles.css -o _site/css/styles.css --watch\"",
-    "build": "postcss src/css/styles.css -o _site/css/styles.css && eleventy"
+    "start": "concurrently \"yarn dev:11ty\" \"yarn dev:css\"",
+    "build": "postcss src/css/styles.css -o _site/css/styles.css && eleventy",
+    "dev:11ty": "eleventy --serve --watch",
+    "dev:css": "postcss src/css/styles.css -o _site/css/styles.css --watch"
   },
   "repository": {
     "type": "git",
