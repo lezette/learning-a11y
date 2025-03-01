@@ -6,7 +6,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("./_site/css");
 
   // Add Date filters
-  config.addFilter("date", (dateObj, format = "D MM, YYYY") => {
+  config.addFilter("date", (dateObj, format = "D MMM YYYY") => {
     return dayjs(dateObj).format(format);
   });
 
