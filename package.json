@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "A personal blog documenting my accessibility journey, including WCAG 2.2, WAS certification prep, and CPWA.",
   "scripts": {
-    "start": "yarn concurrently \"yarn dev:11ty\" \"yarn dev:css\"",
-    "build": "yarn @11ty/eleventy && yarn tailwindcss -i src/css/styles.sass -o _site/css/styles.css",
-    "dev:11ty": "yarn eleventy --serve --quiet",
-    "dev:css": "yarn tailwindcss -i src/css/styles.sass -o _site/css/styles.css --watch --postcss"
+    "start": "concurrently \"eleventy --serve\" \"postcss src/css/styles.css -o _site/css/styles.css --watch\"",
+    "build": "postcss src/css/styles.css -o _site/css/styles.css && eleventy"
   },
   "repository": {
     "type": "git",
@@ -20,10 +18,11 @@
   "homepage": "https://github.com/lezette/learning-a11y#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0-alpha.13",
-    "autoprefixer": "^10.4.19",
+    "@tailwindcss/postcss": "^1.0.0",
+    "concurrently": "^7.6.0",
     "dayjs": "^1.11.11",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
-    "concurrently": "^7.6.0"
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.0.0"
   }
 }
