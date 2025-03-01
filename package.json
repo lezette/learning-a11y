@@ -1,29 +1,29 @@
 {
-  "name": "eleventy-tailwind-template",
+  "name": "learning-a11y",
   "version": "1.0.0",
-  "description": "Template for using Eleventy and Tailwind CSS",
+  "description": "A personal blog documenting my accessibility journey, including WCAG 2.2, WAS certification prep, and CPWA.",
   "scripts": {
-    "start": "npm-run-all -p dev:*",
-    "build": "npx @11ty/eleventy && tailwindcss -i src/css/styles.sass -o _site/css/styles.css",
-    "dev:11ty": "eleventy --serve --quiet",
-    "dev:css": "tailwindcss -i src/css/styles.sass -o _site/css/styles.css --watch --postcss"
+    "start": "yarn concurrently \"yarn dev:11ty\" \"yarn dev:css\"",
+    "build": "yarn @11ty/eleventy && yarn tailwindcss -i src/css/styles.sass -o _site/css/styles.css",
+    "dev:11ty": "yarn eleventy --serve --quiet",
+    "dev:css": "yarn tailwindcss -i src/css/styles.sass -o _site/css/styles.css --watch --postcss"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremydaly/eleventy-tailwind-template.git"
+    "url": "git+https://github.com/lezette/learning-a11y.git"
   },
-  "author": "Jeremy Daly",
+  "author": "Lezette",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeremydaly/eleventy-tailwind-template/issues"
+    "url": "https://github.com/lezette/learning-a11y/issues"
   },
-  "homepage": "https://github.com/jeremydaly/eleventy-tailwind-template#readme",
+  "homepage": "https://github.com/lezette/learning-a11y#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0-alpha.13",
     "autoprefixer": "^10.4.19",
     "dayjs": "^1.11.11",
-    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4"
+    "tailwindcss": "^3.4.4",
+    "concurrently": "^7.6.0"
   }
 }
