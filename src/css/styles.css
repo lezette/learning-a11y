@@ -4,9 +4,14 @@
   --color-black: #252525;
   --color-white: #faf5f6;
   --color-gray: #6b6b6b;
-  --color-dark-gray: #cecece;
+  --color-dark-gray: #a4a4a4;
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans",
+    serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth"100,
+    "YTLC"500;
 }
