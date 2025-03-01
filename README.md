@@ -1,9 +1,69 @@
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jeremydaly/eleventy-tailwind-template)
+# Learning A11y Blog
 
-# Starter template for building Eleventy static sites with Tailwind CSS
+🚀 A personal blog documenting my **accessibility (a11y) journey**, covering:
 
-1. Clone the repo
-2. Run `npm install`
-3. Run `npm start`
+- **WCAG 2.2 deep dives**
+- **WAI-ARIA 1.2 deep dives**
+- **ATAG 2.0 deep dives**
+- **Web Accessibility Specialist (WAS) certification prep** 📚
+- **CPWA (Certified Professional in Web Accessibility) goals** 🔍
 
-![Screenshot](https://user-images.githubusercontent.com/2053544/148869250-271d81fb-ea64-491a-b811-619d22ca3e25.png)
+Hosted on **Netlify** and built with **Eleventy (11ty) + Tailwind CSS**.
+
+🛠 **Based on the [Eleventy Tailwind Template](https://github.com/jeremydaly/eleventy-tailwind-template) by Jeremy Daly.**
+
+---
+
+## 🛠 Setup & Installation
+
+1️⃣ **Clone the repository**:
+
+```sh
+ git clone https://github.com/lezette/learning-a11y.git
+ cd learning-a11y
+```
+
+2️⃣ **Install dependencies**:
+
+```sh
+ yarn install
+```
+
+3️⃣ **Run the development server**:
+
+```sh
+ yarn start
+```
+
+4️⃣ **Build the site for deployment**:
+
+```sh
+ yarn build
+```
+
+---
+
+## 📌 Features
+
+✅ **Eleventy (11ty) for static site generation**
+✅ **Tailwind CSS for easy styling**
+✅ **Markdown-based content management**
+✅ **Day.js for date formatting**
+✅ **Deployed on Netlify**
+
+---
+
+## 🚀 Deployment
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lezette/learning-a11y)
+
+---
+
+## 📬 Connect
+
+💬 **Follow my accessibility journey:**
+
+- [Bluesky](https://bsky.app/profile/ilizette.bsky.social)
+- [LinkedIn](https://www.linkedin.com/in/elizabeth-meshioye/)
+
+Let’s make the web more accessible together! 🚀
