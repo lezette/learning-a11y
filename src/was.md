@@ -7,5 +7,13 @@ order: 2
 ---
 
 <div class="my-10 text-xl/8">
-  {% include "blog-list.njk" %}
+{% if collections.was and collections.was.length > 0 %}
+  <ul>
+    {% for post in collections.was or [] %}
+      {% include "blog-list.njk" %}
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No blog posts found.</p>
+{% endif %}
 </div>

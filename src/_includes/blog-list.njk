@@ -1,20 +1,23 @@
-{% if collections.was and collections.was.length > 0 %}
-<ul>
-  {% for post in collections.was or [] %}
-  <li class="my-5">
-    <a href="{{ post.url }}" class="underline">{{ post.data.title }}</a>
-    <time datetime="{{ post.date | date }}">{{ post.date | date }}</time>
-    {% if post.data.tags %}
-    <span class="text-sm">
-      {%- for tag in post.data.tags -%}
-      <a href="/tags/{{ tag }}/" class="text-blue-500 hover:underline"
-        >#{{ tag }}</a
-      >{% if not loop.last %}, {% endif %} {%- endfor -%}
-    </span>
-    {% endif %}
-  </li>
-  {% endfor %}
-</ul>
-{% else %}
-<p>No blog posts found.</p>
-{% endif %}
+<li class="py-5 px-3 border-b border-red-400">
+  <a
+    href="{{ post.url }}"
+    class="underline text-3xl text-[#A3DB3D] hover:no-underline decoration-3 [word-spacing:0.10rem]"
+    >{{ post.data.title }}</a
+  >
+  <time
+    datetime="{{ post.date }}"
+    class="text-xl italic dark:text-dark-gray text-gray font-medium"
+    >{{ post.date | date }}</time
+  >
+  <p class="text-xl my-2">{{ post.data.description }}</p>
+  {% if post.data.tags %}
+  <span class="">
+    {%- for tag in post.data.tags -%}
+    <a
+      href="/tags/{{ tag }}/"
+      class="text-lg font-semibold text-[#fbdc13] underline inline-block mr-2"
+      >#{{ tag }}</a
+    >{% if not loop.last %} {% endif %} {%- endfor -%}
+  </span>
+  {% endif %}
+</li>
