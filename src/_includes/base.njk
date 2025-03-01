@@ -111,9 +111,9 @@
         European Accessibility (EN 301 549), and more.
       </h2>
     </header>
-    {% include "navigation.njk" %} {% include "breadcrumbs.njk" %}
+    {% include "navigation.njk" %}
 
-    <main>{{ content | safe }}</main>
+    <main>{% block content %} {{ content | safe }} {% endblock %}</main>
 
     <footer class="mt-0 text-center text-base text-gray-500">
       <p>

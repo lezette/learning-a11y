@@ -6,8 +6,8 @@ module.exports = function (config) {
   config.addPassthroughCopy("./_site/css");
 
   // Add Date filters
-  config.addFilter("date", (dateObj) => {
-    return dayjs(dateObj).format("MMMM D, YYYY");
+  config.addFilter("date", (dateObj, format = "D MM, YYYY") => {
+    return dayjs(dateObj).format(format);
   });
 
   config.addFilter("sitemapDate", (dateObj) => {
@@ -23,6 +23,20 @@ module.exports = function (config) {
     return collections.getFilteredByTag("page").sort(function (a, b) {
       return a.data.order - b.data.order;
     });
+  });
+
+  config.addCollection("was", function (collectionApi) {
+    return collectionApi.getFilteredByTag("was");
+  });
+
+  config.addCollection("tagList", function (collectionApi) {
+    let tagSet = new Set();
+    collectionApi.getAll().forEach(item => {
+      if ("tags" in item.data) {
+        item.data.tags.forEach(tag => tagSet.add(tag));
+      }
+    });
+    return [...tagSet];
   });
 
   return {
