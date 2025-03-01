@@ -6,18 +6,16 @@ modified: 2022-01-09 00:00:00
 order: 1
 ---
 
-<h1 class="pt-24 pb-6 text-center">
-	<span class="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-		Hello world!
-	</span>
-</h1>
-<h2 class="pb-12 text-4xl font-bold text-center text-gray-500">
-	{{ config.siteTitle }}
-</h2>
+<div class="my-10 text-xl/8">
+<p class="my-2">
+	Hello I'm Elizabeth,
+</p>
+<p class="my-8">
+	I'm a frontend developer, and Web Accessibility (A11y) is truly important to me. This site is my personal journal where I document my journey to becoming a <span class="font-bold">Web Accessibility Specialist</span> (WAS). Along the way, I'll be sharing what I learn so you might find something useful too!
+</p>
 
-<div class="container max-w-lg mx-auto text-xl text-center">
-	<p>Starter template for building <a href="https://www.11ty.dev/" target="_blank">Eleventy</a> static sites with <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> automatically generating the corresponding styles and writing them to a static CSS file.</p>
-	<p class="pt-3"><a href="https://github.com/jeremydaly/eleventy-tailwind-template#readme" class="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">View the README</a></p>
+<p class="my-8">
+Writing helps me understand things better, and teaching others reinforces my learning. That’s my main motivation for this blog. I hope it serves as both a learning resource and a reflection of my growth.
+</p>
+
 </div>
-
-{% include "navigation.njk" %}
