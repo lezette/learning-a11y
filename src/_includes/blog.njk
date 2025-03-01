@@ -1,0 +1,12 @@
+{% extends "base.njk" %} {% block content %}
+<article class="prose prose-lg dark:prose-invert mx-auto my-10 px-5">
+  <header>
+    <h1 class="text-4xl font-bold">{{ title }}</h1>
+    <p class="text-gray-500 text-sm">
+      Published on <time datetime="{{ date }}">{{ date | date }}</time>
+    </p>
+  </header>
+
+  <div class="mt-6">{{ content | safe }}</div>
+</article>
+{% endblock %}

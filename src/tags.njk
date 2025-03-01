@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: "tags/{{ tag | slug }}/"
+title: "Posts tagged {{ tag }}"
+layout: base
+---
+
+<h1 class="text-2xl font-bold">#{{ tag }}</h1>
+
+<ul>
+  <ul>
+    {% for post in collections.was %} {% if tag in post.data.tags %}
+    <li>
+      <a href="{{ post.url }}" class="text-blue-500 hover:underline"
+        >{{ post.data.title }}</a
+      >
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+</ul>
