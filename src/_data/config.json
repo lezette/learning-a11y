@@ -1,9 +1,10 @@
 {
-  "siteTitle": "My Eleventy Site with Tailwind CSS",
+  "siteTitle": "Learning A11y",
   "url": "https://example.com",
-  "description": "This is a default template for Eleventy with TailwindCSS",
-  "keywords": "eleventy, 11ty, tailwind, tailwindcss, css, ssg",
+  "description": "A blog documenting my accessibility journey",
+  "keywords": "a11y, accessibility, WCAG, WAS, CPWA",
+  "author": "Lezette",
   "image": "https://www.11ty.dev/img/built/IdthKOzqFA-350.avif",
-  "twitter": "@jeremy_daly",
+  "bluesky": "https://bsky.app/profile/ilizette.bsky.social",
   "card": "summary"
 }
