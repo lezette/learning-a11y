@@ -4,7 +4,7 @@ description: "This is detail for this post"
 tags: ["was", "wcag"]
 permalink: "was/{{ title | slug }}/"
 date: "2025-03-01"
-layout: "blog"
+layout: "blog-layout"
 ---
 
 <div class="text-xl">

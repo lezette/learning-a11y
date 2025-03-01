@@ -4,7 +4,7 @@ description: "This is a short description for this post"
 date: "2025-03-01"
 tags: ["journal", "was", "wcag"]
 permalink: "was/{{ title | slug }}/"
-layout: "blog.njk"
+layout: "blog-layout"
 ---
 
 <div class="text-xl">
