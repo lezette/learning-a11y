@@ -1,16 +1,19 @@
 <li class="py-5 px-3 border-b border-pink-500">
-  <a
-    href="{{ post.url }}"
-    class="underline text-3xl dark:text-[#A3DB3D] text-indigo-500 hover:no-underline decoration-3 [word-spacing:0.10rem]"
-    >{{ post.data.title }}
-  </a>
-  <time
-    datetime="{{ post.date }}"
-    class="text-xl italic dark:text-dark-gray text-gray font-medium"
-    >{{ post.date | date }}
-  </time>
+  <div class="flex flex-wrap items-end">
+    <a
+      href="{{ post.url }}"
+      class="underline text-3xl dark:text-[#A3DB3D] text-indigo-500 hover:no-underline decoration-3 [word-spacing:0.05rem]"
+      >{{ post.data.title }}
+    </a>
+    <time
+      datetime="{{ post.date }}"
+      class="text-xl italic dark:text-dark-gray text-gray font-medium"
+      >{{ post.date | date }}
+    </time>
+  </div>
+  {% if post.data.description %}
   <p class="text-xl my-2">{{ post.data.description }}</p>
-  {% if post.data.tags %}
+  {% endif %} {% if post.data.tags %}
   <span class="">
     {%- for tag in post.data.tags -%}
     <a
