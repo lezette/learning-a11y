@@ -4,7 +4,7 @@
   "description": "A blog documenting my accessibility journey",
   "keywords": "a11y, accessibility, WCAG, WAS, CPWA",
   "author": "Lezette",
-  "image": "https://www.11ty.dev/img/built/IdthKOzqFA-350.avif",
+  "image": "./images/x96-favicon.png",
   "bluesky": "https://bsky.app/profile/ilizette.bsky.social",
   "card": "summary"
 }
