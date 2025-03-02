@@ -5,7 +5,7 @@
     {%- for item in collections.pages -%}
     <li>
       <a
-        class="p-2 dark:text-white text-black underline-offset-2 {% if page.url == item.url %}underline decoration-wavy font-semibold decoration-[#eb4888]{% else %}hover:underline decoration-[#24d05a]{% endif %}"
+        class="p-2 dark:text-white! text-black! underline-offset-2! {% if page.url == item.url %}underline! decoration-wavy! font-semibold decoration-[#eb4888]!{% else %}hover:underline! decoration-[#24d05a]! no-underline! {% endif %}"
         href="{{ item.url }}"
         >{{ item.data.title }}</a
       >

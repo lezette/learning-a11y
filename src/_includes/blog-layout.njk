@@ -12,7 +12,7 @@
     {%- for tag in tags -%}
     <a
       href="/tags/{{ tag }}/"
-      class="text-lg font-semibold dark:text-[#fbdc13] text-pink-500 underline inline-block mr-2"
+      class="text-lg font-semibold underline inline-block mr-2"
       >#{{ tag }}</a
     >{% if not loop.last %} {% endif %} {%- endfor -%}
   </span>
