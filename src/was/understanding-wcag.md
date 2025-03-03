@@ -1,6 +1,6 @@
 ---
 title: "Understanding WCAG"
-description: "TA deep dive into WCAG (Web Content Accessibility Guidelines) and its structure."
+description: "Take a deep dive into WCAG (Web Content Accessibility Guidelines) and its structure."
 tags: ["was", "wcag"]
 permalink: "was/{{ title | slug }}/"
 date: "2025-03-02"
