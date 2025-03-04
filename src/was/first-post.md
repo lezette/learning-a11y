@@ -7,7 +7,7 @@ permalink: "was/{{ title | slug }}/"
 layout: "blog-layout"
 ---
 
-<div class="text-xl/8 space-y-6">
+<div class="text-xl/8 space-y-6 blog">
   <p class="text-2xl font-semibold">Hey there,</p>
   <p>I don’t like public commitments—but here I am, doing this publicly.</p>
   <p>Web accessibility has always been an integral part of me being a frontend developer, I generally don't like the idea of <span class="font-semibold italic">limiting people</span> and knowing that something I build might be <span class="font-semibold italic">inaccessible</span> due to my ignorance just doesn’t sit right with me.</p>
@@ -15,7 +15,7 @@ layout: "blog-layout"
   <p class="text-2xl font-semibold">My Goal</p>
   <p>I want to master web accessibility and gain the confidence to call myself a <abbr>WAS</abbr> (Web Accessibility Specialist)</p>
   <p class="text-2xl font-semibold">My Plan</p>
-  <ul class="list-disc space-y-2 ml-10">
+  <ul>
     <li>Spend at least 2 hours daily learning about accessibility</li>
     <li>Follow the IAAP WAS Body of Knowledge (BoK) (Oct 2024 update) for structured learning</li>
     <li>Understand the W3C accessibility resources</li>

@@ -36,3 +36,16 @@ strong {
 em {
   font-style: italic;
 }
+
+.blog {
+  ul {
+    @apply list-disc;
+    @apply ml-10;
+    @apply space-y-2;
+  }
+  ol {
+    @apply list-decimal;
+    @apply ml-10;
+    @apply space-y-2
+  }
+}

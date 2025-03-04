@@ -7,7 +7,7 @@ date: "2025-03-02"
 layout: "blog-layout"
 ---
 
-<div class="text-xl/8 space-y-6">
+<div class="text-xl/8 space-y-6 blog">
 
   <h3 class="text-2xl font-semibold">So what is <abbr>WCAG</abbr> (W3C Accessibility Guideline)?</h3>
   <p>WCAG which stands for <strong>Web Content Accessibility Guidelines,</strong> a set of guidelines from the W3C (World Wide Web Consortium) designed to provide guidelnes that help ensure web platforms are accessible.</p>
@@ -22,7 +22,7 @@ layout: "blog-layout"
   <p>Each layer builds on the previous one, making accessibility guidance more actionable.</p>
   
   <p>WCAG Principles (POUR)</p>
-  <ol class="list-decimal space-y-2 ml-10">
+  <ol>
     <li>Perceivable: Information and UI components must be presented in ways users can perceive (e.g., text alternatives for images).</li>
     <li>Operable: Users must be able to navigate and interact with the interface (e.g., keyboard navigation).</li>
     <li>Understandable: The interface must be clear, predictable, and easy to understand.</li>
@@ -38,7 +38,7 @@ layout: "blog-layout"
 
   <h3 class="text-2xl font-semibold">WCAG Conformance Levels: A, AA, AAA</h3>
   <p>Conformance levels define how well a website or app meets WCAG accessibility standards:</p>
-  <ul class="list-disc space-y-2 ml-10">
+  <ul>
     <li>A – This is the minimum level of conformance, in other words, the least you can do to ensure your website meets the accessibility standard. If your website fails Level A criteria, it's likely completely inaccessible for disabled users.</li>
     <li>AA: The recommended standard of conformance, this includes all A + AA SCs, most people and organization aim for this</li>
     <li>AAA: The highest level of conformance, includes A + AA + AAA SCs, However, this level isn't always pratical and sometimes could be unnecessary for your project</li>
@@ -66,7 +66,7 @@ layout: "blog-layout"
   <p>I hope this made WCAG easier to understand. Thanks for reading <span aria-hidden="true">💙</span></p>
 
   <h3 class="text-2xl font-semibold">Resources</h3>
-  <ul class="list-disc space-y-2 ml-10">
+  <ul>
     <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG 2 Overview (opens in new tab)</a></li>
     <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/about" target="_blank">About WCAG Understanding Documents (opens in new tab)</a></li>
     <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank">Web Content Accessibility Guidelines (WCAG) 2.2 (opens in new tab)</a></li>
