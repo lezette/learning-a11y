@@ -113,10 +113,11 @@ layout: "blog-layout"
   <ul>
     <li><a href="https://www.w3.org/TR/WCAG22/#perceivable" target="_blank">1. Perceivable (opens in new tab)</a></li>
     <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html" target="_blank">Understanding
-        Guideline 1.1:
+        Guideline 1.1: Text Alternatives (opens in new tab)</a></li>
     <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/time-based-media.html" target="_blank">Understanding
         Guideline 1.2: Time-based Media (opens in new tab)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html" target="_blank">Understanding
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html" target="_blank">Understanding Guideline
+        1.3: Adaptable (opens in new tab)</a></li>
     <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/distinguishable.html" target="_blank">Understanding
         Guideline 1.4: Distinguishable (opens in new tab)</a></li>
   </ul>
