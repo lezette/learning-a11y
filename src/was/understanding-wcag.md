@@ -10,7 +10,7 @@ layout: "blog-layout"
 <div class="text-xl/8 space-y-6">
 
   <h3 class="text-2xl font-semibold">So what is <abbr>WCAG</abbr> (W3C Accessibility Guideline)?</h3>
-  <p>WCAG which stands for <span class="font-bold">Web Content Accessibility Guidelines,</span> a set of guidelines from the W3C (World Wide Web Consortium) designed to provide guidelnes that help ensure web platforms are accessible.</p>
+  <p>WCAG which stands for <strong>Web Content Accessibility Guidelines,</strong> a set of guidelines from the W3C (World Wide Web Consortium) designed to provide guidelnes that help ensure web platforms are accessible.</p>
   <p>The name might seem self-explanatory (it didn’t seem that clear to me earlier, lol), but WCAG provides specific, structured guidance to help make the web inclusive.</p>
   
   <h3 class="text-2xl font-semibold">How WCAG Works</h3>
@@ -31,10 +31,10 @@ layout: "blog-layout"
 
   <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl"> Note: If your web platform doesn’t meet these principles, it's not truly accessible.</p>
 
-  <p>Each Principle contains Guidelines that help meet its goal. For example, under the <span class="font-bold italic">Perceivable</span> principle, Guideline <span class="font-bold italic">1.1 - Text Alternatives</span> states that non-text content must have a text alternative for users who can’t see or hear it.</p>
+  <p>Each Principle contains Guidelines that help meet its goal. For example, under the <strong><em>Perceivable</em></strong> principle, Guideline <strong>1.1 - Text Alternatives</strong> states that non-text content must have a text alternative for users who can’t see or hear it.</p>
 
-  <p>To make this more actionable, WCAG provides Success Criteria (SC): SC <span class="font-bold italic">1.1.1 - Non-text Content (Level A)</span> Requires all non-text content should have a text alternative (except for things like decorative images or CAPTCHA).</p>
-  <p>Every Success Criterion (SC) has a Conformance Level <span class="font-bold italic">(A, AA, AAA),</span> which tells you how essential it is for accessibility.</p>
+  <p>To make this more actionable, WCAG provides Success Criteria (SC): SC <strong><em>1.1.1 - Non-text Content (Level A)</em></strong> Requires all non-text content should have a text alternative (except for things like decorative images or CAPTCHA).</p>
+  <p>Every Success Criterion (SC) has a Conformance Level <strong>(A, AA, AAA),</strong> which tells you how essential it is for accessibility.</p>
 
   <h3 class="text-2xl font-semibold">WCAG Conformance Levels: A, AA, AAA</h3>
   <p>Conformance levels define how well a website or app meets WCAG accessibility standards:</p>
