@@ -38,6 +38,12 @@ em {
 }
 
 .blog {
+  @apply space-y-6;
+  @apply text-xl/8;
+  h3 {
+    @apply text-2xl;
+    @apply font-semibold;
+  }
   ul {
     @apply list-disc;
     @apply ml-10;

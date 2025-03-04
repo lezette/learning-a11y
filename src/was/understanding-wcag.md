@@ -7,7 +7,7 @@ date: "2025-03-02"
 layout: "blog-layout"
 ---
 
-<div class="text-xl/8 space-y-6 blog">
+<div class="blog">
 
   <h3 class="text-2xl font-semibold">So what is <abbr>WCAG</abbr> (W3C Accessibility Guideline)?</h3>
   <p>WCAG which stands for <strong>Web Content Accessibility Guidelines,</strong> a set of guidelines from the W3C (World Wide Web Consortium) designed to provide guidelnes that help ensure web platforms are accessible.</p>

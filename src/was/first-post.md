@@ -7,7 +7,7 @@ permalink: "was/{{ title | slug }}/"
 layout: "blog-layout"
 ---
 
-<div class="text-xl/8 space-y-6 blog">
+<div class="blog">
   <p class="text-2xl font-semibold">Hey there,</p>
   <p>I don’t like public commitments—but here I am, doing this publicly.</p>
   <p>Web accessibility has always been an integral part of me being a frontend developer, I generally don't like the idea of <span class="font-semibold italic">limiting people</span> and knowing that something I build might be <span class="font-semibold italic">inaccessible</span> due to my ignorance just doesn’t sit right with me.</p>
