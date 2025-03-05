@@ -9,7 +9,7 @@ layout: "blog-layout"
 
 <div class="blog">
   <p>I spent some hours yesterday and today looking at the Perceivable Principle. As part of my goal I needed to deeply
-    understand goes into all the meeting all the WCAG principles</p>
+    understand all that goes into meeting the WCAG principles</p>
 
   <p>Here's a quick summary what I learnt.</p>
 
