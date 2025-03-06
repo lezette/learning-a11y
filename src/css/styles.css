@@ -8,6 +8,11 @@
   --color-dark-gray: #a4a4a4;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 5.5rem;
+}
+
 body {
   font-family: "Nunito Sans",
     serif;
@@ -48,6 +53,10 @@ em {
     @apply text-xl;
     @apply font-bold;
   }
+  h5 {
+    @apply text-lg;
+    @apply font-bold;
+  }
   ul {
     @apply list-disc;
     @apply ml-10;
@@ -72,6 +81,27 @@ em {
     @apply py-0.5;
     @apply rounded-md;
     font-size: .875em;
+  }
+
+  q {
+    @apply italic;
+    @apply font-light;
+    @apply px-0.5;
+  }
+
+  blockquote {
+    @apply relative;
+    @apply pl-5;
+    &::before {
+      content: '';
+      @apply absolute;
+      @apply block;
+      @apply inset-y-0;
+      @apply left-0;
+      @apply bg-green-500;
+      @apply w-1;
+      
+    }
   }
 
   @media (prefers-color-scheme: dark) {

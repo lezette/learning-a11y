@@ -50,7 +50,7 @@ layout: "blog-layout"
     <li>Using semantic HTML (headings, lists, tables) so assistive technologies can recognize content relationships.
     </li>
     <li>Ensuring a <strong>logical reading order</strong> so that it makes sense if styles are removed. Don't use CSS
-      to visually arrange content in a way that loses meaning for AT users</li>
+      to visually arrange content in a way that loses meaning for Assistive Technologies (AT) users</li>
     <li>Not relying on only <strong>sensory characteristics</strong> like color or shapes to pass information, make sure
       instructions are clear regardless of visuals. So instead of: <em>"Click the Red button with the left arrow at the
         bottom of the page"</em>, Say: <em>"Click the 'Next' button at the bottom, which has a left arrow."</em></li>
