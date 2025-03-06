@@ -1,6 +1,6 @@
 ---
 title: "A deep dive on the Perceivable principle"
-description: "looking more into the perceivable principles, guidelines and Success Criteria"
+description: "A detailed breakdown of the WCAG 2.2 "Perceivable" principle"
 tags: ["was", "wcag"]
 permalink: "was/{{ title | slug }}/"
 date: "2025-03-06"
