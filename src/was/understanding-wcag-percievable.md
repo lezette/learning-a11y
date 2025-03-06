@@ -71,9 +71,8 @@ layout: "blog-layout"
     <li>Providing <strong>audio controls</strong> so users can pause or mute autoplaying sound.</li>
     <li>Ensuring sufficient contrast between text and background:
       <ul>
-        <li><strong>AA: 4.5:1</strong> for normal text, <strong>3:1</strong> for large text (18.5px bold or 24px
-          normal).</li>
-        <li><strong>AAA: 7:1</strong> for normal text, <strong>4.5:1</strong> for large text.</li>
+        <li>For Level AA the minimum contrast ratio should be <strong>4.5:1</strong> for normal text, <strong>3:1</strong> for large text (18.5px bold or 24px normal).</li>
+        <li>For Level AAA the minimum contrast ratio should be <strong>7:1</strong> for normal text, <strong>4.5:1</strong> for large text.</li>
       </ul>
     </li>
     <li>Supporting zoom (up to 200% for AA) and <strong>reflow</strong> (up to 400% for AAA) without breaking the
@@ -100,9 +99,7 @@ layout: "blog-layout"
 
   <p></p>
   <p>So this was a really intresting learning process for me, I knew some of these guidelines previously but I found
-    some of them too vauge to understand when reading the WCAG overview page, but going through the understanding
-    [guidelines] or understanding [success crietria] pages was game changing, they provided examples and some had
-    failures.</p>
+    some of them too vauge to understand when reading the WCAG overview page, but reading "Understanding" pages for each guidelines and success criteria was game changing.</p>
 
   <p>After learning this to ensure I really understand the Perceivable principle I asked ChatGPT to generate a
     <strong>IAAP WAS-style quiz</strong> focused on testing your understanding of WCAG 2.2 - Perceivable principle and
