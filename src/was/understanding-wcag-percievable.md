@@ -99,7 +99,7 @@ layout: "blog-layout"
 
   <p></p>
   <p>So this was a really intresting learning process for me, I knew some of these guidelines previously but I found
-    some of them too vauge to understand when reading the WCAG overview page, but reading "Understanding" pages for each guidelines and success criteria was game changing.</p>
+    some of them too vauge to understand when reading the WCAG overview page, but reading the "Understanding" pages for each guidelines and success criteria was game changing. I've provided links to the understanding pages in the <a href="#resources">resources</a> section</p>
 
   <p>After learning this to ensure I really understand the Perceivable principle I asked ChatGPT to generate a
     <strong>IAAP WAS-style quiz</strong> focused on testing your understanding of WCAG 2.2 - Perceivable principle and
@@ -107,7 +107,7 @@ layout: "blog-layout"
     Principle soon
   </p>
 
-  <h3 class="text-2xl font-semibold">Resources</h3>
+  <h3 class="text-2xl font-semibold" id="resources">Resources</h3>
   <ul>
     <li><a href="https://www.w3.org/TR/WCAG22/#perceivable" target="_blank">1. Perceivable (opens in new tab)</a></li>
     <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html" target="_blank">Understanding
