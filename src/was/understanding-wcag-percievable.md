@@ -44,7 +44,7 @@ layout: "blog-layout"
   </ul>
 
   <h3>1.3 Adaptable</h3>
-  <p>Make sure content should be structured properly so it can be presented in different ways without losing meaning.
+  <p>Make sure content are structured properly so it can be presented in different ways without losing meaning.
     This means:</p>
   <ul>
     <li>Using semantic HTML (headings, lists, tables) so assistive technologies can recognize content relationships.
@@ -61,12 +61,13 @@ layout: "blog-layout"
     </li>
     <li>Clearly marking the purpose of UI components using ARIA roles (e.g., using <mark>nav</mark> for navigation)</li>
   </ul>
+  
   <h3>1.4 Distinguishable</h3>
   <p>Let users perceive content by providing the right contrast for the background and foreground, and avoiding using
     color alone to pass information. This includes:</p>
   <ul>
     <li><strong>Not using color alone</strong> to pass information (e.g., instead of saying "Required fields are in
-      red," add a “Required” label ora <kbd>*</kbd> symbol).</li>
+      red," add a “Required” label or a <kbd>*</kbd> symbol).</li>
     <li>Providing <strong>audio controls</strong> so users can pause or mute autoplaying sound.</li>
     <li>Ensuring sufficient contrast between text and background:
       <ul>
@@ -105,7 +106,7 @@ layout: "blog-layout"
 
   <p>After learning this to ensure I really understand the Perceivable principle I asked ChatGPT to generate a
     <strong>IAAP WAS-style quiz</strong> focused on testing your understanding of WCAG 2.2 - Perceivable principle and
-    it helped me build realize that I actually do understand the Perceivable principle (Yay). So on to the next
+    it helped me realize that I actually do understand the Perceivable principle (Yay). So on to the next
     Principle soon
   </p>
 
