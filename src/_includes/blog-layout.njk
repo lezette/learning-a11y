@@ -3,7 +3,7 @@
   <header>
     <h2 class="text-4xl font-bold">{{ title }}</h2>
     <p class="dark:text-dark-gray text-gray text-base my-2">
-      Published on <time datetime="{{ date }}">{{ date | date }}</time>
+      Published <time datetime="{{ date }}">{{ date | dateFromNow }}</time>
     </p>
   </header>
 
