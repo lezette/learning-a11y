@@ -81,4 +81,7 @@ em {
       content: "Note: ";
     }
   }
+  .note-no-prefix {
+    @apply dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl;
+  }
 }
