@@ -37,6 +37,7 @@ em {
 
 .blog {
   @apply space-y-6 text-xl/8;
+
   h3 {
     @apply text-2xl font-semibold;
   }
@@ -83,5 +84,8 @@ em {
   }
   .note-no-prefix {
     @apply dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl;
+  }
+  .big-text {
+    @apply text-3xl;
   }
 }

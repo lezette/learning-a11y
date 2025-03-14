@@ -23,7 +23,7 @@ layout: "blog-layout"
     <li>Understand the European Accessibility (EN 301 549)</li>
     <li>Run accessibility audits to better understand WCAG 2.2</li>
     <li>Update this blog with insights, tutorials, and takeaways</li>
-    <li>Prepare for and take the IAAP WAS certification exam/li>
+    <li>Prepare for and take the IAAP WAS certification exam</li>
     <li>Become a WAS <span aria-hidden="true">😊</span></li>
   </ul>
    <p class="text-2xl font-semibold">Join Me on This Path</p>

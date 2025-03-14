@@ -30,7 +30,7 @@ layout: "blog-layout"
   <p><q>Okay! So, for a component to be perceivable, users need to be able to comprehend it.</q> Now the guidelines make
     sense—silly me <span aria-hidden="true">😅</span></p>
 
-  <p class="text-3xl">So, let's look at the guidelines.</p>
+  <p class="big-text">So, let's look at the guidelines.</p>
 
   <p>In order for your web component to be marked as perceivable WCAG provided the following guidelines</p>
 

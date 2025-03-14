@@ -9,7 +9,7 @@ layout: "blog-layout"
 
 <div class="blog">
 
-  <h3 class="text-2xl font-semibold">My Journey to WAS update</h3>
+  <h3>My Journey to WAS update</h3>
 
   <p>So, Last Thursday, I published a <a href="/was/a-deep-dive-on-the-perceivable-principle/">deep dive on the
       Perceivable

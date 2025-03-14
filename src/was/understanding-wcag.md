@@ -9,14 +9,14 @@ layout: "blog-layout"
 
 <div class="blog">
 
-  <h3 class="text-2xl font-semibold">So what is <abbr>WCAG</abbr> (W3C Accessibility Guideline)?</h3>
+  <h3>So what is <abbr>WCAG</abbr> (W3C Accessibility Guideline)?</h3>
   <p>WCAG which stands for <strong>Web Content Accessibility Guidelines,</strong> a set of guidelines from the W3C (World Wide Web Consortium) designed to provide guidelnes that help ensure web platforms are accessible.</p>
   <p>The name might seem self-explanatory (it didn’t seem that clear to me earlier, lol), but WCAG provides specific, structured guidance to help make the web inclusive.</p>
   
-  <h3 class="text-2xl font-semibold">How WCAG Works</h3>
+  <h3>How WCAG Works</h3>
   <p>WCAG isn't static—it gets updated over time. The current version is WCAG 2.2, and importantly, new versions are backward-compatible so you don’t need to relearn old versions just follow the latest guidelines.</p>
 
-  <h3 class="text-2xl font-semibold">WCAG Structure: Layers of Guidance</h3>
+  <h3>WCAG Structure: Layers of Guidance</h3>
   <p>The WCAG framework follows a layered structure:</p>
   <p class="font-bold">Principles →  Guidelines → Success Criteria (SC) → Conformance Levels → Techniques</p>
   <p>Each layer builds on the previous one, making accessibility guidance more actionable.</p>
@@ -36,7 +36,7 @@ layout: "blog-layout"
   <p>To make this more actionable, WCAG provides Success Criteria (SC): SC <strong><em>1.1.1 - Non-text Content (Level A)</em></strong> Requires all non-text content should have a text alternative (except for things like decorative images or CAPTCHA).</p>
   <p>Every Success Criterion (SC) has a Conformance Level <strong>(A, AA, AAA),</strong> which tells you how essential it is for accessibility.</p>
 
-  <h3 class="text-2xl font-semibold">WCAG Conformance Levels: A, AA, AAA</h3>
+  <h3>WCAG Conformance Levels: A, AA, AAA</h3>
   <p>Conformance levels define how well a website or app meets WCAG accessibility standards:</p>
   <ul>
     <li>A – This is the minimum level of conformance, in other words, the least you can do to ensure your website meets the accessibility standard. If your website fails Level A criteria, it's likely completely inaccessible for disabled users.</li>
@@ -45,12 +45,12 @@ layout: "blog-layout"
   </ul>
   <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">So, if you ever see "Our website meets WCAG 2.2 AA", now you know what it means!</p>
 
-  <h3 class="text-2xl font-semibold">Techniques: How to Meet Success Criteria</h3>
+  <h3>Techniques: How to Meet Success Criteria</h3>
   <p>Each SC have techniques you can follow, they are recommendations on how to meet the SC. For example, for SC 1.1.1 Non-text content (Level A) one technique is using the alt attribute on img elements to provide text alternatives for images.</p>
 
   <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">Techniques aren’t mandatory (non-normative), but they’re best practices to help meet WCAG requirements.</p>
 
-  <h3 class="text-2xl font-semibold">What's with the numbering?</h3>
+  <h3>What's with the numbering?</h3>
 
   <p>If you ever wonder why WCAG uses numbered labels like 1.1.1 or 2.1.1. We use the numbers to identify which principle a guideline or SC fall under. Here's how to read them:</p>
 
@@ -59,13 +59,13 @@ layout: "blog-layout"
 
   <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">So if a user gets trapped in a modal and can’t exit using the keyboard, that means the site fails Principle 2 (Operable) and Guideline 2.1 (Keyboard Accessible).</p>
 
-  <h3 class="text-2xl font-semibold">Do We Need to Memorize All WCAG Guidelines?</h3>
+  <h3>Do We Need to Memorize All WCAG Guidelines?</h3>
   <p>Well, if you're like Mike Ross or Sheldon Cooper then absolutely! <span aria-hidden="true">😆</span></p>
   <p>But realistically, no, you don’t need to memorize everything. Instead, focus on understanding the principles and guidelines so you can quickly identify accessibility failures, then understand how to reference WCAG 2.2 documentation when needed, You should also try understanding common patterns, so you intuitively apply accessibility best practices.</p>
 
   <p>I hope this made WCAG easier to understand. Thanks for reading <span aria-hidden="true">💙</span></p>
 
-  <h3 class="text-2xl font-semibold">Resources</h3>
+  <h3>Resources</h3>
   <ul>
     <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG 2 Overview (opens in new tab)</a></li>
     <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/about" target="_blank">About WCAG Understanding Documents (opens in new tab)</a></li>
