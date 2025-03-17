@@ -1,7 +1,7 @@
 ---
 title: "Journey to WAS update, Thursday, March 13 2025"
 description: "My journey to WAS update March 10th 2025"
-tags: ["journal", "wcag", "was"]
+tags: ["journal", "was"]
 permalink: "was/{{ title | slug }}/"
 date: "2025-03-13"
 layout: "blog-layout"
@@ -40,7 +40,6 @@ layout: "blog-layout"
     had no
     <code>tabindex</code> (it's quite common, actually). I never heard back, but I hope they fixed it.
   </p>
-
 
   <p>I have also been watching some videos about how different people approach accessibility audits. It's been really
     insightful and interesting. I've seen people ask what the best tool for automated testing is, and honestly, in my

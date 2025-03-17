@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  @apply text-pink-700 dark:text-gold underline;
+  @apply text-pink-700 dark: text-gold underline;
 }
 
 
@@ -41,24 +41,30 @@ em {
   h3 {
     @apply text-2xl font-semibold;
   }
+
   h4 {
     @apply text-xl font-bold;
   }
+
   h5 {
     @apply text-lg font-bold;
   }
+
   ul {
-    @apply list-disc  ml-10 space-y-2;
+    @apply list-disc ml-10 space-y-2;
   }
+
   ol {
     @apply list-decimal ml-10 space-y-2;
   }
+
   mark {
-    @apply bg-yellow-500 dark:bg-yellow-200 px-1.5 rounded-md text-[0.875em];
+    @apply bg-yellow-500 dark: bg-yellow-200 px-1.5 rounded-md text-[0.875em];
   }
 
-  code, kbd {
-    @apply bg-gray-700 dark:bg-[#424242] text-white px-1.5 py-0.5 rounded-md;
+  code,
+  kbd {
+    @apply bg-gray-700 dark: bg-[#424242] text-white px-1.5 py-0.5 rounded-md;
     font-size: .875em;
   }
 
@@ -68,23 +74,25 @@ em {
 
   blockquote {
     @apply relative pl-5;
+
     &::before {
       content: '';
-      @apply absolute block inset-y-0 left-0  bg-green-500 w-1
-      
+      @apply absolute block inset-y-0 left-0 bg-green-500 w-1
     }
   }
 
   .note {
-    @apply dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl;
+    @apply dark: bg-dark-gray/50 bg-gray/50 p-4 rounded-xl;
 
     &::before {
       content: "Note: ";
     }
   }
+
   .note-no-prefix {
-    @apply dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl;
+    @apply dark: bg-dark-gray/50 bg-gray/50 p-4 rounded-xl;
   }
+
   .big-text {
     @apply text-3xl;
   }
