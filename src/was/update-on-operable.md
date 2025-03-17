@@ -43,7 +43,7 @@ layout: "blog-layout"
     a rabbit hole of learning how various events shaped the accessibility laws we have today. So here are some of what I
     spent my weekend reading:</p>
 
-  <h3>Pokemon Shock (ポケモンショック, Pokemon Shokku)</h3>
+  <h3>Pokemon Shock <span lang="ja">(ポケモンショック, Pokemon Shokku)</span></h3>
 
   <p>This incident happened on December 16, 1997, in Japan when an episode of Pokémon titled <q>Dennō Senshi
       Porygon</q>.
