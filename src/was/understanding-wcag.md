@@ -67,8 +67,8 @@ layout: "blog-layout"
 
   <h3>Resources</h3>
   <ul>
-    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG 2 Overview (opens in new tab)</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/about" target="_blank">About WCAG Understanding Documents (opens in new tab)</a></li>
-    <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank">Web Content Accessibility Guidelines (WCAG) 2.2 (opens in new tab)</a></li>
+    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">WCAG 2 Overview</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/about" target="_blank" rel="noopener noreferrer">About WCAG Understanding Documents</a></li>
+    <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">Web Content Accessibility Guidelines (WCAG) 2.2</a></li>
   </ul>
 <div>

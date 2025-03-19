@@ -13,7 +13,7 @@ layout: "blog-layout"
 
   <p>It honestly took me a bit longer than I'd hoped, mostly because I was dealing with a
     <a href="https://migrainetrust.org/understand-migraine/types-of-migraine/migraine-with-aura/"
-      target="_blank">migraine with aura</a>.
+      target="_blank" rel="noopener noreferrer">migraine with aura</a>.
   </p>
 
   <div class="note">

@@ -96,4 +96,11 @@ em {
   .big-text {
     @apply text-3xl;
   }
+
+  a[target="_blank"] {
+
+    &::after {
+      content: " (opens in new tab)";
+    }
+  }
 }

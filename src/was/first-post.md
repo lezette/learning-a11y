@@ -28,7 +28,7 @@ layout: "blog-layout"
   </ul>
    <p class="text-2xl font-semibold">Join Me on This Path</p>
   <p>You can follow along as I update this blog with insights, learnings, and challenges. Maybe you’ll learn something new—or maybe you’ll just enjoy the journey with me! </p>
-  <p>You could also check out my past articles on <a href="https://dev.to/ilizette" target="_blank">dev.to (opens in a new tab).</a> where I’ve written about specific web accessibility topics.</p>
-  <p>This idea was inspired by Amy Carney’s <a href="https://100daysofa11y.com/" target="_blank">100 Days of A11y (opens in new tab)</a></p>
+  <p>You could also check out my past articles on <a href="https://dev.to/ilizette" target="_blank" rel="noopener noreferrer">dev.to (opens in a new tab).</a> where I’ve written about specific web accessibility topics.</p>
+  <p>This idea was inspired by Amy Carney’s <a href="https://100daysofa11y.com/" target="_blank" rel="noopener noreferrer">100 Days of A11y</a></p>
   <p><span aria-hidden="true">🚀</span> Let’s go!</p>
 <div>

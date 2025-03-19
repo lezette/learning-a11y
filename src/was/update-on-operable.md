@@ -131,7 +131,7 @@ layout: "blog-layout"
     interpret and convey ARIA semantics. The goal is to ensure consistent behavior across all ATs—so that any time a
     browser or screen reader makes a change, we can verify that accessibility remains intact. I read about the work done
     and joined the community. If you'd like to contribute more you can read more about this on the <a
-      href="https://aria-at.w3.org/" target="_blank">Aria-AT website</a>
+      href="https://aria-at.w3.org/" target="_blank" rel="noopener noreferrer">Aria-AT website</a>
   </p>
   <p>It's been an interesting couple of days!</p>
 

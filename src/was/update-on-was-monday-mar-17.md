@@ -45,14 +45,15 @@ layout: "blog-layout"
     2.2. I can't wait to finish writing and share what I've learned!</p>
 
   <p>After studying all the WCAG principles, I'll move on to studying common failures and <a
-      href="https://www.w3.org/WAI/WCAG22/Techniques/" target="_blank">techniques for WCAG 2.2</a>.</p>
+      href="https://www.w3.org/WAI/WCAG22/Techniques/" target="_blank" rel="noopener noreferrer">techniques for WCAG
+      2.2</a>.</p>
 
   <p>I really love that I'm learning something every day, and I'm excited for the future.</p>
 
   <p>I'm looking to join a study group for the WAS exam. I can't find any free groups, and I can't afford paid groups.
     If you
     know of any or intend to start one, please shoot me a DM on <a
-      href="https://www.linkedin.com/in/elizabeth-meshioye/" target="_blank">LinkedIn</a>.</p>
+      href="https://www.linkedin.com/in/elizabeth-meshioye/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
 
   <p>Thanks for reading, have a nice day!</p>
   <div>
