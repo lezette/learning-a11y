@@ -1,10 +1,10 @@
 {
   "siteTitle": "The A11y Path",
-  "url": "https://thea11ypath.netlify.app",
+  "url": "https://thea11ypath.com",
   "description": "A blog documenting my accessibility journey",
   "keywords": "a11y, accessibility, WCAG, WAS, CPWA",
   "author": "Lezette",
-  "image": "https://thea11ypath.netlify.app/images/x96-favicon.png",
+  "image": "https://thea11ypath.com/images/x96-favicon.png",
   "bluesky": "https://bsky.app/profile/ilizette.bsky.social",
   "card": "summary"
 }
