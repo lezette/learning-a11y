@@ -12,8 +12,8 @@ layout: "blog-layout"
   <h3>So, Yayy, I completed the Operable principle, finally.</h3>
 
   <p>It honestly took me a bit longer than I'd hoped, mostly because I was dealing with a
-    <a href="https://migrainetrust.org/understand-migraine/types-of-migraine/migraine-with-aura/"
-      target="_blank" rel="noopener noreferrer">migraine with aura</a>.
+    <a href="https://migrainetrust.org/understand-migraine/types-of-migraine/migraine-with-aura/" target="_blank"
+      rel="noopener noreferrer">migraine with aura</a>.
   </p>
 
   <div class="note">
@@ -67,4 +67,4 @@ layout: "blog-layout"
     accessibility improvements.</p>
 
   <p>Thanks for reading, have a nice day!</p>
-  <div>
+</div>

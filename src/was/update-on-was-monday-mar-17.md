@@ -56,4 +56,4 @@ layout: "blog-layout"
       href="https://www.linkedin.com/in/elizabeth-meshioye/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
 
   <p>Thanks for reading, have a nice day!</p>
-  <div>
+</div>

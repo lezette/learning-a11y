@@ -368,22 +368,28 @@ layout: "blog-layout"
 
   <h3 class="text-2xl font-semibold">Resources</h3>
   <ul>
-    <li><a href="https://www.w3.org/TR/WCAG22/#perceivable" target="_blank" rel="noopener noreferrer">1. Perceivable</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html" target="_blank" rel="noopener noreferrer">Understanding
+    <li><a href="https://www.w3.org/TR/WCAG22/#perceivable" target="_blank" rel="noopener noreferrer">1. Perceivable</a>
+    </li>
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html" target="_blank"
+        rel="noopener noreferrer">Understanding
         Guideline 1.1: Text Alternatives</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/time-based-media.html" target="_blank" rel="noopener noreferrer">Understanding
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/time-based-media.html" target="_blank"
+        rel="noopener noreferrer">Understanding
         Guideline 1.2: Time-based Media</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html" target="_blank" rel="noopener noreferrer">Understanding Guideline
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html" target="_blank"
+        rel="noopener noreferrer">Understanding Guideline
         1.3: Adaptable</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/distinguishable.html" target="_blank" rel="noopener noreferrer">Understanding
-    <li><a href="https://www.youtube.com/watch?v=SgfICec18Gw" target="_blank" rel="noopener noreferrer">Integrated Audio </a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/distinguishable.html" target="_blank"
+        rel="noopener noreferrer">Understanding
+    <li><a href="https://www.youtube.com/watch?v=SgfICec18Gw" target="_blank" rel="noopener noreferrer">Integrated Audio
+      </a></li>
     <li>
-      <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum#dfn-contrast-ratio"
-        target="_blank" rel="noopener noreferrer">Integrated Audio Contrast Ratio</a>
+      <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum#dfn-contrast-ratio" target="_blank"
+        rel="noopener noreferrer">Integrated Audio Contrast Ratio</a>
     </li>
     <li>
       <a href="https://ds.gpii.net/content/about-decibels-db" target="_blank" rel="noopener noreferrer">About
         Decibels</a>
     </li>
   </ul>
-  <div>
+</div>

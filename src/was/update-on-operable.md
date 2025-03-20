@@ -137,4 +137,4 @@ layout: "blog-layout"
 
   <p>I have one more guideline to cover under the <strong>Operable</strong> principle and then I'll do a deep dive. See
     you then</p>
-  <div>
+</div>

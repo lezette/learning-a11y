@@ -61,7 +61,7 @@ layout: "blog-layout"
     </li>
     <li>Clearly marking the purpose of UI components using ARIA roles (e.g., using <mark>nav</mark> for navigation)</li>
   </ul>
-  
+
   <h3>1.4 Distinguishable</h3>
   <p>Let users perceive content by providing the right contrast for the background and foreground, and avoiding using
     color alone to pass information. This includes:</p>
@@ -71,8 +71,10 @@ layout: "blog-layout"
     <li>Providing <strong>audio controls</strong> so users can pause or mute autoplaying sound.</li>
     <li>Ensuring sufficient contrast between text and background:
       <ul>
-        <li>For Level AA the minimum contrast ratio should be <strong>4.5:1</strong> for normal text, <strong>3:1</strong> for large text (18.5px bold or 24px normal).</li>
-        <li>For Level AAA the minimum contrast ratio should be <strong>7:1</strong> for normal text, <strong>4.5:1</strong> for large text.</li>
+        <li>For Level AA the minimum contrast ratio should be <strong>4.5:1</strong> for normal text,
+          <strong>3:1</strong> for large text (18.5px bold or 24px normal).</li>
+        <li>For Level AAA the minimum contrast ratio should be <strong>7:1</strong> for normal text,
+          <strong>4.5:1</strong> for large text.</li>
       </ul>
     </li>
     <li>Supporting zoom (up to 200% for AA) and <strong>reflow</strong> (up to 400% for AAA) without breaking the
@@ -99,7 +101,9 @@ layout: "blog-layout"
 
   <p></p>
   <p>So this was a really intresting learning process for me, I knew some of these guidelines previously but I found
-    some of them too vauge to understand when reading the WCAG overview page, but reading the "Understanding" pages for each guidelines and success criteria was game changing. I've provided links to the understanding pages in the <a href="#resources">resources</a> section</p>
+    some of them too vauge to understand when reading the WCAG overview page, but reading the "Understanding" pages for
+    each guidelines and success criteria was game changing. I've provided links to the understanding pages in the <a
+      href="#resources">resources</a> section</p>
 
   <p>After learning this to ensure I really understand the Perceivable principle I asked ChatGPT to generate a
     <strong>IAAP WAS-style quiz</strong> focused on testing your understanding of WCAG 2.2 - Perceivable principle and
@@ -109,14 +113,19 @@ layout: "blog-layout"
 
   <h3 class="text-2xl font-semibold" id="resources">Resources</h3>
   <ul>
-    <li><a href="https://www.w3.org/TR/WCAG22/#perceivable" target="_blank" rel="noopener noreferrer">1. Perceivable</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html" target="_blank" rel="noopener noreferrer">Understanding
+    <li><a href="https://www.w3.org/TR/WCAG22/#perceivable" target="_blank" rel="noopener noreferrer">1. Perceivable</a>
+    </li>
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives.html" target="_blank"
+        rel="noopener noreferrer">Understanding
         Guideline 1.1: Text Alternatives</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/time-based-media.html" target="_blank" rel="noopener noreferrer">Understanding
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/time-based-media.html" target="_blank"
+        rel="noopener noreferrer">Understanding
         Guideline 1.2: Time-based Media</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html" target="_blank" rel="noopener noreferrer">Understanding Guideline
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/adaptable.html" target="_blank"
+        rel="noopener noreferrer">Understanding Guideline
         1.3: Adaptable</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/distinguishable.html" target="_blank" rel="noopener noreferrer">Understanding
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/distinguishable.html" target="_blank"
+        rel="noopener noreferrer">Understanding
         Guideline 1.4: Distinguishable</a></li>
   </ul>
-  <div>
+</div>

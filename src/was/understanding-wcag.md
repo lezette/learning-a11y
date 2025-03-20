@@ -10,65 +10,92 @@ layout: "blog-layout"
 <div class="blog">
 
   <h3>So what is <abbr>WCAG</abbr> (W3C Accessibility Guideline)?</h3>
-  <p>WCAG which stands for <strong>Web Content Accessibility Guidelines,</strong> a set of guidelines from the W3C (World Wide Web Consortium) designed to provide guidelnes that help ensure web platforms are accessible.</p>
-  <p>The name might seem self-explanatory (it didn’t seem that clear to me earlier, lol), but WCAG provides specific, structured guidance to help make the web inclusive.</p>
-  
+  <p>WCAG which stands for <strong>Web Content Accessibility Guidelines,</strong> a set of guidelines from the W3C
+    (World Wide Web Consortium) designed to provide guidelnes that help ensure web platforms are accessible.</p>
+  <p>The name might seem self-explanatory (it didn’t seem that clear to me earlier, lol), but WCAG provides specific,
+    structured guidance to help make the web inclusive.</p>
+
   <h3>How WCAG Works</h3>
-  <p>WCAG isn't static—it gets updated over time. The current version is WCAG 2.2, and importantly, new versions are backward-compatible so you don’t need to relearn old versions just follow the latest guidelines.</p>
+  <p>WCAG isn't static—it gets updated over time. The current version is WCAG 2.2, and importantly, new versions are
+    backward-compatible so you don’t need to relearn old versions just follow the latest guidelines.</p>
 
   <h3>WCAG Structure: Layers of Guidance</h3>
   <p>The WCAG framework follows a layered structure:</p>
-  <p class="font-bold">Principles →  Guidelines → Success Criteria (SC) → Conformance Levels → Techniques</p>
+  <p class="font-bold">Principles → Guidelines → Success Criteria (SC) → Conformance Levels → Techniques</p>
   <p>Each layer builds on the previous one, making accessibility guidance more actionable.</p>
-  
+
   <p>WCAG Principles (POUR)</p>
   <ol>
-    <li>Perceivable: Information and UI components must be presented in ways users can perceive (e.g., text alternatives for images).</li>
+    <li>Perceivable: Information and UI components must be presented in ways users can perceive (e.g., text alternatives
+      for images).</li>
     <li>Operable: Users must be able to navigate and interact with the interface (e.g., keyboard navigation).</li>
     <li>Understandable: The interface must be clear, predictable, and easy to understand.</li>
-    <li>Robust: Content should be compatible across different technologies, including browsers, assistive technologies (AT), and future devices.</li>
+    <li>Robust: Content should be compatible across different technologies, including browsers, assistive technologies
+      (AT), and future devices.</li>
   </ol>
 
-  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl"> Note: If your web platform doesn’t meet these principles, it's not truly accessible.</p>
+  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl"> Note: If your web platform doesn’t meet these principles,
+    it's not truly accessible.</p>
 
-  <p>Each Principle contains Guidelines that help meet its goal. For example, under the <strong><em>Perceivable</em></strong> principle, Guideline <strong>1.1 - Text Alternatives</strong> states that non-text content must have a text alternative for users who can’t see or hear it.</p>
+  <p>Each Principle contains Guidelines that help meet its goal. For example, under the
+    <strong><em>Perceivable</em></strong> principle, Guideline <strong>1.1 - Text Alternatives</strong> states that
+    non-text content must have a text alternative for users who can’t see or hear it.</p>
 
-  <p>To make this more actionable, WCAG provides Success Criteria (SC): SC <strong><em>1.1.1 - Non-text Content (Level A)</em></strong> Requires all non-text content should have a text alternative (except for things like decorative images or CAPTCHA).</p>
-  <p>Every Success Criterion (SC) has a Conformance Level <strong>(A, AA, AAA),</strong> which tells you how essential it is for accessibility.</p>
+  <p>To make this more actionable, WCAG provides Success Criteria (SC): SC <strong><em>1.1.1 - Non-text Content (Level
+        A)</em></strong> Requires all non-text content should have a text alternative (except for things like decorative
+    images or CAPTCHA).</p>
+  <p>Every Success Criterion (SC) has a Conformance Level <strong>(A, AA, AAA),</strong> which tells you how essential
+    it is for accessibility.</p>
 
   <h3>WCAG Conformance Levels: A, AA, AAA</h3>
   <p>Conformance levels define how well a website or app meets WCAG accessibility standards:</p>
   <ul>
-    <li>A – This is the minimum level of conformance, in other words, the least you can do to ensure your website meets the accessibility standard. If your website fails Level A criteria, it's likely completely inaccessible for disabled users.</li>
-    <li>AA: The recommended standard of conformance, this includes all A + AA SCs, most people and organization aim for this</li>
-    <li>AAA: The highest level of conformance, includes A + AA + AAA SCs, However, this level isn't always pratical and sometimes could be unnecessary for your project</li>
+    <li>A – This is the minimum level of conformance, in other words, the least you can do to ensure your website meets
+      the accessibility standard. If your website fails Level A criteria, it's likely completely inaccessible for
+      disabled users.</li>
+    <li>AA: The recommended standard of conformance, this includes all A + AA SCs, most people and organization aim for
+      this</li>
+    <li>AAA: The highest level of conformance, includes A + AA + AAA SCs, However, this level isn't always pratical and
+      sometimes could be unnecessary for your project</li>
   </ul>
-  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">So, if you ever see "Our website meets WCAG 2.2 AA", now you know what it means!</p>
+  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">So, if you ever see "Our website meets WCAG 2.2 AA", now you
+    know what it means!</p>
 
   <h3>Techniques: How to Meet Success Criteria</h3>
-  <p>Each SC have techniques you can follow, they are recommendations on how to meet the SC. For example, for SC 1.1.1 Non-text content (Level A) one technique is using the alt attribute on img elements to provide text alternatives for images.</p>
+  <p>Each SC have techniques you can follow, they are recommendations on how to meet the SC. For example, for SC 1.1.1
+    Non-text content (Level A) one technique is using the alt attribute on img elements to provide text alternatives for
+    images.</p>
 
-  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">Techniques aren’t mandatory (non-normative), but they’re best practices to help meet WCAG requirements.</p>
+  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">Techniques aren’t mandatory (non-normative), but they’re
+    best practices to help meet WCAG requirements.</p>
 
   <h3>What's with the numbering?</h3>
 
-  <p>If you ever wonder why WCAG uses numbered labels like 1.1.1 or 2.1.1. We use the numbers to identify which principle a guideline or SC fall under. Here's how to read them:</p>
+  <p>If you ever wonder why WCAG uses numbered labels like 1.1.1 or 2.1.1. We use the numbers to identify which
+    principle a guideline or SC fall under. Here's how to read them:</p>
 
   <p>1.1.1 → Principle 1: Perceivable → Guideline 1.1: Text Alternatives → SC 1.1.1: Non-text Content</p>
   <p>2.1.1 → Principle 2: Operable → Guideline 2.1: Keyboard Accessible → SC 2.1.1: Keyboard</p>
 
-  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">So if a user gets trapped in a modal and can’t exit using the keyboard, that means the site fails Principle 2 (Operable) and Guideline 2.1 (Keyboard Accessible).</p>
+  <p class="dark:bg-dark-gray/50 bg-gray/50 p-4 rounded-xl">So if a user gets trapped in a modal and can’t exit using
+    the keyboard, that means the site fails Principle 2 (Operable) and Guideline 2.1 (Keyboard Accessible).</p>
 
   <h3>Do We Need to Memorize All WCAG Guidelines?</h3>
   <p>Well, if you're like Mike Ross or Sheldon Cooper then absolutely! <span aria-hidden="true">😆</span></p>
-  <p>But realistically, no, you don’t need to memorize everything. Instead, focus on understanding the principles and guidelines so you can quickly identify accessibility failures, then understand how to reference WCAG 2.2 documentation when needed, You should also try understanding common patterns, so you intuitively apply accessibility best practices.</p>
+  <p>But realistically, no, you don’t need to memorize everything. Instead, focus on understanding the principles and
+    guidelines so you can quickly identify accessibility failures, then understand how to reference WCAG 2.2
+    documentation when needed, You should also try understanding common patterns, so you intuitively apply accessibility
+    best practices.</p>
 
   <p>I hope this made WCAG easier to understand. Thanks for reading <span aria-hidden="true">💙</span></p>
 
   <h3>Resources</h3>
   <ul>
-    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">WCAG 2 Overview</a></li>
-    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/about" target="_blank" rel="noopener noreferrer">About WCAG Understanding Documents</a></li>
-    <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">Web Content Accessibility Guidelines (WCAG) 2.2</a></li>
+    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">WCAG 2
+        Overview</a></li>
+    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/about" target="_blank" rel="noopener noreferrer">About WCAG
+        Understanding Documents</a></li>
+    <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">Web Content Accessibility
+        Guidelines (WCAG) 2.2</a></li>
   </ul>
-<div>
+</div>
