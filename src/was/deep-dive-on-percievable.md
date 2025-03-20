@@ -1,5 +1,5 @@
 ---
-title: "A deep dive on the Perceivable principle"
+title: "An overview of the Perceivable principle"
 description: "A detailed breakdown of the WCAG 2.2 Perceivable principle"
 tags: ["was", "wcag", "tutorial"]
 permalink: "was/{{ title | slug }}/"
