@@ -1,6 +1,6 @@
 ---
-title: "Journey to WAS update, Friday, March 21 2025"
-description: "My journey to WAS update March 21 2025"
+title: "Journey to WAS update, Friday, March 21, 2025"
+description: "My journey to WAS update March 21, 2025"
 tags: ["journal", "was"]
 permalink: "was/{{ title | slug }}/"
 date: "2025-03-21"
@@ -9,7 +9,7 @@ layout: "blog-layout"
 
 <div class="blog">
 
-  <p class="large-text">I finally completed the article on overview of the Operable Principle.</p>
+  <p class="large-text">I finally finished my overview article on WCAG's Operable Principle!.</p>
 
   <p>You can read the post
     <a href="/was/an-overview-of-the-operable-principle/">An Overview of the Operable Principle</a>.
