@@ -74,5 +74,20 @@ layout: "blog-layout"
     </li>
   </ul>
 
+  <p>Other Article I found helpful</p>
+
+  <ul>
+    <li>
+      <a href="https://www.smashingmagazine.com/2021/10/respecting-users-motion-preferences/" target="_blank"
+        rel="noopener noreferrer">Respecting Users' Motion Preferences</a>
+    </li>
+    <li>
+      <a href="https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/" target="_blank"
+        rel="noopener noreferrer">A Guide To Keyboard Accessibility: HTML And CSS (Part 1)</a>
+    </li>
+  </ul>
+
+  <p> </p>
+
   <p>Thanks for reading, have a nice day!</p>
 </div>
