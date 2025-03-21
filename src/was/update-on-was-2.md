@@ -1,6 +1,6 @@
 ---
 title: "Journey to WAS update, Thursday, March 13 2025"
-description: "My journey to WAS update March 10th 2025"
+description: "My journey to WAS update March 13 2025"
 tags: ["journal", "was"]
 permalink: "was/{{ title | slug }}/"
 date: "2025-03-13"
