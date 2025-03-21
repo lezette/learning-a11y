@@ -87,7 +87,7 @@ layout: "blog-layout"
     </li>
   </ul>
 
-  <p> </p>
+  <p>Honestly, Smashing Magazine is one of my favorite places online for accessibility resources!</p>
 
   <p>Thanks for reading, have a nice day!</p>
 </div>
