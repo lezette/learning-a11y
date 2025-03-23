@@ -462,13 +462,12 @@ layout: "blog-layout"
   <p>This article took me longer than I hoped to complete because I actually realized that there were some guidelines or
     requirement I didn't understand. I had to read some additional resources while going through the WCAG documentaion
   </p>
-  <p>I'm so glad I did this, On to the next guideline, While I'm done with the studying the Understandable guideline,
-    I'll be spending the rest of the week and weekend writing on the guideline, That should be quick (famous last words
-    <span aria-hidden="true">🤓</span>). I can't wait to share that with you as well. So the next time you'll hear from
-    me would be hopefully on Monday 24th March with the next WCAG guideline.
+  <p>I'm so glad I did this, On to the next guideline, While I'm done with studying the Understandable guideline,
+    I'll be spending the weekend writing on the guideline. I can't wait to share that with you as well. So the next time
+    you'll hear from me would be hopefully on Monday 24th March with the next WCAG guideline.
   </p>
   <p>In the meantime I'll also spend time re-running my test on AriaAT which was removed due to a bug in the system. I'm
-    going in with less anxiety thus time.</p>
+    going in with less anxiety this time.</p>
 
   <p>This has been one of the most productive and structured period of my life recently. I wake up everyday excited
     about what new thing to learn on A11y. It's worth it</p>
