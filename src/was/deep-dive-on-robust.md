@@ -82,6 +82,9 @@ layout: "blog-layout"
     decided
     to make an updated version that includes WCAG 2.2.</p>
 
+  <p>I've also been studying the Techniques for WCAG 2.2 and the <a
+      href="https://www.w3.org/WAI/WCAG22/Techniques/#failures" target="_blank" rel="noopener noreferrer">Common
+      Failures</a></p>
 
   <p>According to the <abbr title="International Association of Administrative Professionals">IAAP</abbr>'s Body of
     Knowledge
