@@ -190,7 +190,6 @@ layout: "blog-layout"
   <p class="note">This SC only applies if you offer help on multiple pages. It doesn’t say you must provide help—but if
     you do, and it repeats, it should be consistently located.</p>
 
-
   <h3>3.3 Input Assistance</h3>
   <p>This guideline is all about helping users avoid mistakes when filling out forms or providing input—and helping them
     recover when mistakes happen. It recognizes that many users (especially those with cognitive, motor, or visual
@@ -350,7 +349,7 @@ layout: "blog-layout"
     implementation guidance.</p>
 
   <p>YAY!! I was able to write this over the weekend. I’ll be reading the last principle, Robust, by Monday and hope to
-    cover that then too. So, I’ll see you tomorrow (hopefully)!</p>
+    write about that soon too. So, I’ll see you soon!</p>
 
   <h3>Resources</h3>
   <ul>
