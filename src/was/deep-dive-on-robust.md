@@ -8,8 +8,7 @@ layout: "blog-layout"
 ---
 
 <div class="blog">
-  <p>WCAG's last principle, <strong>Robust</strong>, ensures that website or digital content are built in a way that
-    different technologies (like browsers and Assistive technologies), now and in the future, can understand it clearly.
+  <p>WCAG's last principle, <strong>Robust</strong>, ensures that web platforms are built in a way that different technologies (like browsers and Assistive technologies), now and in the future, can understand it clearly.
   </p>
   <p>Your website may look fine visually, however, it might not be semantically acurate so Assistive Technologies (<abbr
       title="Assistive Technologies">AT</abbr>) might not interpret it well.</p>
