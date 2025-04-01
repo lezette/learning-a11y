@@ -9,7 +9,7 @@ layout: "blog-layout"
 
 <div class="blog">
 
-  <p class="large-text">I finally finished my overview article on WCAG's Operable Principle!.</p>
+  <p class="big-text">I finally finished my overview article on WCAG's Operable Principle!.</p>
 
   <p>You can read the post
     <a href="/was/an-overview-of-the-operable-principle/">An Overview of the Operable Principle</a>.
@@ -57,7 +57,6 @@ layout: "blog-layout"
     the selection appearance that could disorient users; subtle enhancements are best.</p>
 
   <p>I've included some resources I found on this topic below.</p>
-
 
   <h3>Resources</h3>
   <ul>

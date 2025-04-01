@@ -93,7 +93,7 @@ layout: "blog-layout"
     update, To help with that, I created a table listing the new Success Criteria added in WCAG 2.1 and 2.2. You can
     find it on the second tab of the Google Sheet (titled “WCAG 2.1 and 2.2”).</p>
 
-  <h4 class="large-text">Next Steps</h4>
+  <h4 class="big-text">Next Steps</h4>
   <p>I'll be studying the Authoring Tool Accessibility Guidelines (ATAG) 2.0 next. I'm not very familar with this but
     I'm really excited for what I'll learn!</p>
 

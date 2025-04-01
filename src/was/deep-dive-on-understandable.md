@@ -17,7 +17,7 @@ layout: "blog-layout"
     Accessible Authentication (Minimum), and 3.3.9 Accessible Authentication (Enhanced). I've explained them in this
     article.</p>
 
-  <p class="large-text">Let's look at the guidelines</p>
+  <p class="big-text">Let's look at the guidelines</p>
 
   <h3>3.1 Readable</h3>
   <p>Readable ensures that content on your page is easy to understand for everyone. This involves specifying the

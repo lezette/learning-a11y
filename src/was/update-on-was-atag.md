@@ -9,7 +9,7 @@ layout: "blog-layout"
 
 <div class="blog">
 
-  <p class="large-text"><strong>I'm Officially Done with ATAG! 🎉</strong></p>
+  <p class="big-text">I'm Officially Done with ATAG! 🎉</p>
 
   <p>You can check out my overview article, <a href="/was/atag-overview/">Authoring Tool Accessibility Guidelines
       Overview</a></p>

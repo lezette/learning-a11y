@@ -34,7 +34,7 @@ layout: "blog-layout"
   <p class="note">The study is quite interesting because it grouped adults as people 15 years and above, but the voting
     age in Nigeria is 18 and above. So shouldn't the rate be for people 18 and above instead?</p>
 
-  <p class="large-text">On another note</p>
+  <p class="big-text">On another note</p>
 
   <p>I'm still working on my deep-dive article about the Operable principle. It's taking longer because, as I write, I
     realize I've been mixing up some Success Criteria. This means I need to revisit them and clarify my understanding.
