@@ -1,11 +1,16 @@
-const dayjs = require("dayjs");
-const relativeTime = require('dayjs/plugin/relativeTime')
-const utc = require("dayjs/plugin/utc");
-var timezone = require("dayjs/plugin/timezone");
+const {
+  formatDistanceToNow,
+  format,
+  getYear,
+  isToday,
+  isYesterday,
+  differenceInDays,
+  differenceInWeeks,
+  differenceInMonths
+} = require("date-fns");
 
-dayjs.extend(utc);
-dayjs.extend(relativeTime);
-dayjs.extend(timezone);
+
+
 
 module.exports = function (config) {
   // Pass-through images and processed CSS
@@ -13,30 +18,51 @@ module.exports = function (config) {
   config.addPassthroughCopy("./_site/css");
 
   // Add Date filters
-  config.addFilter("date", (dateObj, format = "D MMM YYYY") => {
-    return dayjs(dateObj).format(format);
+  config.addFilter("date", (dateObj) => {
+    if (!dateObj) return "";
+    const date = new Date(dateObj);
+    return format(date, "d MMM yyyy");
   });
 
   config.addFilter("dateFromNow", (dateObj) => {
-    const date = dayjs.utc(dateObj).tz("Africa/Lagos").startOf("day");
-    const today = dayjs().tz("Africa/Lagos").startOf("day");
-    const diff = today.diff(date, "day");
+    if (!dateObj) return "";
+    const date = new Date(dateObj);
+    const now = new Date();
 
-    if (diff === 0) {
-      return "Today";
-    } else if (diff === 1) {
-      return "Yesterday";
-    } else {
-      return date.fromNow();
+    const daysDiff = differenceInDays(now, date);
+    const weeksDiff = differenceInWeeks(now, date);
+    const monthsDiff = differenceInMonths(now, date);
+
+    switch (true) {
+      case isToday(date):
+        return "Today";
+
+      case isYesterday(date):
+        return "Yesterday";
+
+      case daysDiff === 7:
+        return "A week ago";
+
+      case weeksDiff === 1:
+        return "Last week";
+
+      case monthsDiff === 1:
+        return "Last month";
+
+      default:
+        return formatDistanceToNow(date, { addSuffix: true });
     }
   });
 
+
   config.addFilter("sitemapDate", (dateObj) => {
-    return dayjs(dateObj).toISOString();
+    if (!dateObj) return "";
+    const date = new Date(dateObj);
+    return date.toISOString();
   });
 
   config.addFilter("year", () => {
-    return dayjs().format("YYYY");
+    return getYear(new Date());
   });
 
   // Add pages collection
