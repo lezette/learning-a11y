@@ -45,19 +45,27 @@ layout: "blog-layout"
 
   <h3>How to use Voice Control on iOS</h3>
 
-  <p>Open the Settings app, then Accessibility, then Voice Control and turn it on. You can also open the Voice control
-    tutorial, it's pretty much straightforward explaining the most common commands. Here are some commands you'd be
-    using:</p>
+  <ol>
+    <li>Open the Settings app.</li>
+    <li>Go to Accessibility > Voice Control.</li>
+    <li>Toggle Voice Control on.</li>
+  </ol>
+
+  <p>You can also start with the built-in tutorial—it does a great job explaining the basics and most common commands.
+    <br /> <br /> Here are some Voice Control commands you might use:
+  </p>
 
   <ul>
-    <li>Show Numbers - numbers every interactive elements in the view</li>
-    <li>Tap [number] will tap the interactive element with said number</li>
-    <li>Tap "Search" will select the interactive element named "Search"</li>
+    <li>"Show Numbers" - Adds numbered labels to every interactive element on the screen.</li>
+    <li>"Tap [label]" - Activates an element by name, like "Tap Search".</li>
+    <li>"Stop Listening" / "Start Listening" - Pauses or resumes voice control.</li>
     <li>Stop/Start listening - will toggle listening</li>
-    <li>Scroll up/down</li>
-    <li>Swipe up/down/right/left</li>
-    <li>Two fingers swipe up/down/left/right</li>
+    <li>"Scroll Up" / "Scroll Down"</li>
+    <li>"Swipe Up/Down/Right/Left"</li>
+    <li>"Two Fingers Swipe Up/Down/Left/Right" - For multi-touch gestures.t</li>
   </ul>
+
+  <hr />
 
 
   <h3>Resources</h3>
