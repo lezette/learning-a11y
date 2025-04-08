@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  @apply text-pink-700 dark:text-gold underline;
+  @apply visited:text-pink-700 text-black/80 visited:dark:text-gold dark:text-white/80 underline;
 }
 
 
@@ -104,6 +104,8 @@ em {
   }
 
   a[target="_blank"] {
+
+    @apply text-pink-700 dark:text-gold;
 
     &::after {
       content: " (opens in new tab)";
