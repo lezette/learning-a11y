@@ -33,12 +33,7 @@ layout: "blog-layout"
     them further in an upcoming deep-dive article dedicated specifically to the Operable principle.</p>
 
   <p>I'll be conducting an audit for an actual client soon, and I'm excited about that. The previous audits I've done
-    were just me visiting random sites (including ones I've worked on) and performing audits on them. I sent an audit
-    out to
-    a certain company one time as part of a job application because their website was not keyboard accessible. For
-    example, they were using <code>divs</code> as <code>buttons</code>, only relying on <code>onclick</code> events, and
-    had no
-    <code>tabindex</code> (it's quite common, actually). I never heard back, but I hope they fixed it.
+    were just me visiting random sites (including ones I've worked on) and performing audits on them.
   </p>
 
   <p>I have also been watching some videos about how different people approach accessibility audits. It's been really

@@ -88,15 +88,16 @@ em {
   }
 
   .note {
-    @apply dark:bg-[#1e6b20] bg-gray/50 p-4 rounded-xl;
+    @apply dark:bg-[#D7BA7D] dark:text-black bg-gray/50 p-4 rounded-xl;
 
     &::before {
       content: "Note: ";
+      @apply font-bold;
     }
   }
 
   .note-no-prefix {
-    @apply dark:bg-[#1e6b20] bg-gray/50 p-4 rounded-xl;
+    @apply dark:bg-[#D7BA7D] dark:text-black bg-gray/50 p-4 rounded-xl;
   }
 
   .big-text {
