@@ -14,13 +14,13 @@ layout: "blog-layout"
     idea of <span class="font-semibold italic">limiting people</span> and knowing that something I build might be <span
       class="font-semibold italic">inaccessible</span> due to my ignorance just doesn’t sit right with me.</p>
   <p>But I've come to understand that <span class="font-semibold italic"> accessibility goes beyond just writing
-      accessible code </span> and I keep realizing how much I don’t know—so I've decided to do something about it.</p>
+      accessible code </span> and I keep realizing how much I don’t know so I've decided to do something about it.</p>
   <p class="text-2xl font-semibold">My Goal</p>
   <p>I want to master web accessibility and gain the confidence to call myself a <abbr>WAS</abbr> (Web Accessibility
     Specialist)</p>
   <p class="text-2xl font-semibold">My Plan</p>
   <ul>
-    <li>Spend at least 2 hours daily learning about accessibility</li>
+    <li>Spend at least 30 minutes daily learning something on accessibility</li>
     <li>Follow the IAAP WAS Body of Knowledge (BoK) (Oct 2024 update) for structured learning</li>
     <li>Understand the W3C accessibility resources</li>
     <li>Get comfortable with <abbr>AT</abbr> (Assistive Technologies)</li>
@@ -30,9 +30,9 @@ layout: "blog-layout"
     <li>Prepare for and take the IAAP WAS certification exam</li>
     <li>Become a WAS <span aria-hidden="true">😊</span></li>
   </ul>
-  <p class="text-2xl font-semibold">Join Me on This Path</p>
+  <hr />
   <p>You can follow along as I update this blog with insights, learnings, and challenges. Maybe you’ll learn something
-    new—or maybe you’ll just enjoy the journey with me! </p>
+    new or maybe you’ll just enjoy the journey with me!</p>
   <p>You could also check out my past articles on <a href="https://dev.to/ilizette" target="_blank"
       rel="noopener noreferrer">dev.to (opens in a new tab).</a> where I’ve written about specific web accessibility
     topics.</p>
