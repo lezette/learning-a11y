@@ -1,9 +1,9 @@
 ---
-title: "Aria 1.2"
+title: "Aria 1.2 Overview Part 1"
 description: "An overview of WAI-ARIA"
 tags: ["was", "aria", "journal"]
 permalink: "was/{{ title | slug }}/"
-date: "2025-04-08"
+date: "2025-04-10"
 layout: "blog-layout"
 ---
 
@@ -116,7 +116,6 @@ layout: "blog-layout"
     with just divs and buttons. Visually, it might look like a tab, but a screen reader user wouldn't know that. Cue
     WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications).</p>
 
-
   <p>ARIA solves these issues by providing accessible roles, states, and properties which, when used properly, are meant
     to give assistive technology users full context and information.
   </p>
@@ -184,7 +183,7 @@ layout: "blog-layout"
   </p>
   <p>And I'll end this post just like she did:</p>
 
-  <q><strong>Do not use ARIA if you don't have to... use semantic HTML first</strong></q>
+<q><strong>Do not use ARIA if you don't have to... use semantic HTML first</strong></q>
 
   <h3>Resources</h3>
   <ul>
