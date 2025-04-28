@@ -11,9 +11,7 @@
       >{{ post.date | date }}
     </time>
   </div>
-  {% if post.data.description %}
-  <p class="text-xl my-2">{{ post.data.description }}</p>
-  {% endif %} {% if post.data.tags %}
+  {% if post.data.tags %}
   <span class="">
     {%- for tag in post.data.tags -%}
     <a href="/tags/{{ tag }}/" class="text-lg font-semibold inline-block mr-2"
