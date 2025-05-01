@@ -1,8 +1,8 @@
 ---
 title: "Aria 1.2 Overview Part 1"
 description: "An overview of WAI-ARIA"
-tags: ["was", "aria", "journal"]
-permalink: "was/{{ title | slug }}/"
+tags: ["tutorial", "aria", "journal"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-04-10"
 layout: "blog-layout"
 ---

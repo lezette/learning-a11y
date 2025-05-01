@@ -1,8 +1,8 @@
 ---
 title: "Understanding WCAG: Perceivable"
 description: "Taking a look at what it means for a website to be perceivable"
-tags: ["was", "wcag", "tutorial"]
-permalink: "was/{{ title | slug }}/"
+tags: ["wcag", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-03-04"
 layout: "blog-layout"
 ---

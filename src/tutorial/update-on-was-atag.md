@@ -1,8 +1,8 @@
 ---
 title: "Journey to WAS update, Tuesday, April 01, 2025"
 description: "My journey to WAS update April 01, 2025"
-tags: ["journal", "was"]
-permalink: "was/{{ title | slug }}/"
+tags: ["journal", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-04-01"
 layout: "blog-layout"
 ---
@@ -11,7 +11,7 @@ layout: "blog-layout"
 
   <p class="big-text">I'm Officially Done with ATAG! 🎉</p>
 
-  <p>You can check out my overview article, <a href="/was/authoring-tool-accessibility-guidelines-overview/">Authoring Tool Accessibility Guidelines
+  <p>You can check out my overview article, <a href="/tutorial/authoring-tool-accessibility-guidelines-overview/">Authoring Tool Accessibility Guidelines
       Overview</a></p>
 
   <p>This past weekend was busy, but I still managed to finish studying ATAG. If you had asked me two months ago what

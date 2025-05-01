@@ -1,8 +1,8 @@
 ---
 title: "An overview of the Operable principle"
 description: "A breakdown of the WCAG 2.2 Operable principle"
-tags: ["was", "wcag", "tutorial"]
-permalink: "was/{{ title | slug }}/"
+tags: ["wcag", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-03-20"
 layout: "blog-layout"
 ---

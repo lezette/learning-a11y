@@ -1,8 +1,8 @@
 ---
 title: "Journey to WAS update, Friday, March 21, 2025"
 description: "My journey to WAS update March 21, 2025"
-tags: ["journal", "was"]
-permalink: "was/{{ title | slug }}/"
+tags: ["journal", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-03-21"
 layout: "blog-layout"
 ---
@@ -12,7 +12,7 @@ layout: "blog-layout"
   <p class="big-text">I finally finished my overview article on WCAG's Operable Principle!.</p>
 
   <p>You can read the post
-    <a href="/was/an-overview-of-the-operable-principle/">An Overview of the Operable Principle</a>.
+    <a href="/tutorial/an-overview-of-the-operable-principle/">An Overview of the Operable Principle</a>.
   </p>
 
   <p>I've also finished reading the Understandable Principle and hope to write an overview on it this weekend.</p>

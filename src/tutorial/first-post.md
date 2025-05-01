@@ -2,8 +2,8 @@
 title: "So I am definitely doing this!"
 description: "I working towards becoming a WAS (Web Accessibility Specialist)"
 date: "2025-03-01"
-tags: ["journal", "was"]
-permalink: "was/{{ title | slug }}/"
+tags: ["journal", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 layout: "blog-layout"
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Journey to WAS update, Monday March 10 2025"
 description: "My journey to WAS update March 10th 2025"
-tags: ["journal", "was"]
-permalink: "was/{{ title | slug }}/"
+tags: ["journal", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-03-10"
 layout: "blog-layout"
 ---
@@ -11,7 +11,7 @@ layout: "blog-layout"
 
   <h3>My Journey to WAS update</h3>
 
-  <p>So, Last Thursday, I published a <a href="/was/a-deep-dive-on-the-perceivable-principle/">deep dive on the
+  <p>So, Last Thursday, I published a <a href="/tutorial/a-deep-dive-on-the-perceivable-principle/">deep dive on the
       Perceivable
       principle</a>, covering all its guidelines, success criteria, and tips on testing if a webpage is perceivable.
   </p>

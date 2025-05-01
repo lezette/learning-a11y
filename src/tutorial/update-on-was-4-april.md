@@ -1,8 +1,8 @@
 ---
 title: "Using Voice Over on IOS"
 description: "April 04, 2025, using Voice over"
-tags: ["journal", "was", "assistve-tech"]
-permalink: "was/{{ title | slug }}/"
+tags: ["journal", "assistve-tech", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-04-07"
 layout: "blog-layout"
 ---

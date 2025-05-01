@@ -1,8 +1,8 @@
 ---
 title: "An overview of the Understandable principle"
 description: "A detailed breakdown of the WCAG 2.2 Perceivable principle"
-tags: ["was", "wcag", "tutorial"]
-permalink: "was/{{ title | slug }}/"
+tags: ["wcag", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-03-23"
 layout: "blog-layout"
 ---

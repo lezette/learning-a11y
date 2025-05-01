@@ -10,8 +10,6 @@ const {
 } = require("date-fns");
 
 
-
-
 module.exports = function (config) {
   // Pass-through images and processed CSS
   config.addPassthroughCopy("./src/images");
@@ -73,7 +71,11 @@ module.exports = function (config) {
   });
 
   config.addCollection("was", function (collectionApi) {
-    return collectionApi.getFilteredByTag("was").reverse();
+    return collectionApi.getFilteredByTag("was");
+  });
+
+  config.addCollection("tutorial", function (collectionApi) {
+    return collectionApi.getFilteredByTag("tutorial");
   });
 
   config.addCollection("tagList", function (collectionApi) {

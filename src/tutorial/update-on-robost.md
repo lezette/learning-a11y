@@ -1,8 +1,8 @@
 ---
 title: "Journey to WAS update, Wednesday, March 26 2025"
 description: "My journey to WAS update March 26 2025"
-tags: ["journal", "was"]
-permalink: "was/{{ title | slug }}/"
+tags: ["journal", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-03-26"
 layout: "blog-layout"
 ---
@@ -11,7 +11,7 @@ layout: "blog-layout"
 
   <h3>I'm done studying all of WCAG's layers</h3>
 
-  <p>I wrote an overview of the <a href="/was/an-overview-of-the-robust-principle/">Robost Principle</a>. The
+  <p>I wrote an overview of the <a href="/tutorial/an-overview-of-the-robust-principle/">Robost Principle</a>. The
     Robust
     principle ensures that web platforms are built in a way that's standard so that different technologies (like
     browsers and Assistive technologies), now and in the future, can understand it clearly. The principle has one
@@ -24,7 +24,6 @@ layout: "blog-layout"
   </ul>
 
   <hr />
-
 
   <p><strong>4 Principles, 13 guidelines and 86 Success Criteria</strong> including techniques and common failures.
     It's been a ride, but I'm proud to say I understand all the success criteria, I didn't memorize all of them (I'm not

@@ -1,8 +1,8 @@
 ---
 title: "Understanding WCAG"
 description: "Take a deep dive into WCAG (Web Content Accessibility Guidelines) and its structure."
-tags: ["was", "wcag", "tutorial"]
-permalink: "was/{{ title | slug }}/"
+tags: ["wcag", "tutorial"]
+permalink: "tutorial/{{ title | slug }}/"
 date: "2025-03-02"
 layout: "blog-layout"
 ---
