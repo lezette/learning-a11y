@@ -1,6 +1,6 @@
 ---
 title: "Domain 1.1 WCAG Guidelines"
-description: "WAS Log 01"
+description: "WAS Log 01: Understanding WCAG"
 date: "2025-04-24"
 tags: ["was", "journal"]
 permalink: "was/{{ title | slug }}/"

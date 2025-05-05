@@ -1,6 +1,6 @@
 ---
-title: "Domain 1.5 – Authoring Tool Accessibility Guidelines (ATAG 2.0)"
-description: "WAS Log 02"
+title: "Domain 1.5 - Authoring Tool Accessibility Guidelines (ATAG 2.0)"
+description: "WAS Log 02: ATAG 2.0 - Authoring Tools Exist"
 date: "2025-05-02"
 tags: ["was", "journal"]
 permalink: "was/{{ title | slug }}/"
