@@ -31,6 +31,6 @@ layout: "blog-layout"
     because while it's meant to boost accessibility, if it's used wrong, it can make things less accessible.</p>
 
   <p>ARIA is definitely something I'll keep studying, but for now, I've wrapped up this section of the WAS BoK.
-    Time to move on to the next topic: <strong>Domain One E: Accessibility-Supported Technologies</strong>.
+    Time to move on to the next topic: <strong>Domain One: European Norm 301 549</strong>.
     See you then!</p>
 </div>
