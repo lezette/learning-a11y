@@ -1,7 +1,7 @@
 ---
 title: "Domain 1.1 WCAG Guidelines"
 description: "WAS Log 01"
-date: "2025-03-24"
+date: "2025-04-24"
 tags: ["was", "journal"]
 permalink: "was/{{ title | slug }}/"
 layout: "blog-layout"
