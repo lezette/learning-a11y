@@ -71,7 +71,7 @@ module.exports = function (config) {
   });
 
   config.addCollection("was", function (collectionApi) {
-    return collectionApi.getFilteredByTag("was");
+    return collectionApi.getFilteredByTag("was").reverse();
   });
 
   config.addCollection("tutorial", function (collectionApi) {

@@ -1,7 +1,7 @@
 ---
-title: "🧭 Start Here: My WAS Study Journey!"
+title: "So I am definitely doing this!"
 description: "I working towards becoming a WAS (Web Accessibility Specialist)"
-date: "2025-05-01"
+date: "2025-03-01"
 tags: ["journal", "was"]
 permalink: "was/{{ title | slug }}/"
 layout: "blog-layout"
@@ -12,7 +12,7 @@ layout: "blog-layout"
     Accessibility Specialist (WAS) exam, based on the official <a
       href="https://www.accessibilityassociation.org/sfsites/c/resource/WASBoK_PDF" target="_blank"
       rel="noopener noreferrer">Body of Knowledge v2.3 (2024)</a>.</p>
-  <p>Unlike my tutorials, this isn't a step-by-step how-to. Instead, I'm journaling what I've learned, what made sense,
+  <p>Unlike my tutorials, this isn't a deep dive, Instead, I'm journaling what I've learned, what made sense,
     what confused me at first, and how I made progress. If you're also preparing for the WAS exam (or just want a peek
     into accessibility in practice), this might help you too.</p>
   <hr />
@@ -46,9 +46,15 @@ layout: "blog-layout"
     <li>Communicating findings</li>
     <li>Integrating accessibility into procurement and QA processes</li>
   </ul>
-  <p>If you're also studying for the WAS exam too, welcome!, and let's do this together. And if If you're just here to
-    vibe and learn accessibility, that's cool too 😁</p>
   <p class="note-no-prefix">P.S. I'm not teaching, I'm learning out loud. Check out the <a
-      href="/tutorial">tutorials</a> section if you want how-to guides instead!</p>
-
+      href="/tutorial">tutorials</a> section for some of my deep dives!</p>
+  <hr />
+  <p>You can follow along as I update this blog with insights, learnings, and challenges. Maybe you’ll learn something
+    new or maybe you’ll just enjoy the journey with me!</p>
+  <p>You could also check out my past articles on <a href="https://dev.to/ilizette" target="_blank"
+      rel="noopener noreferrer">dev.to</a> where I’ve written about specific web accessibility
+    topics.</p>
+  <p>The idea for this blog was inspired by Amy Carney’s <a href="https://100daysofa11y.com/" target="_blank"
+      rel="noopener noreferrer">100 Days of A11y</a></p>
+  <p><span aria-hidden="true">🚀</span> Let’s go!</p>
 </div>

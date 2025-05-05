@@ -1,8 +1,8 @@
 ---
 title: "Journey to WAS update, Tuesday, April 01, 2025"
 description: "My journey to WAS update April 01, 2025"
-tags: ["journal", "tutorial"]
-permalink: "tutorial/{{ title | slug }}/"
+tags: ["journal", "was"]
+permalink: "was/{{ title | slug }}/"
 date: "2025-04-01"
 layout: "blog-layout"
 ---

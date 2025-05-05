@@ -1,8 +1,8 @@
 ---
 title: "ARIA Authoring Practices Guide (APG)"
 description: "An overview of WAI-ARIA"
-tags: ["tutorial", "aria", "journal"]
-permalink: "tutorial/{{ title | slug }}/"
+tags: ["was", "aria", "journal"]
+permalink: "was/{{ title | slug }}/"
 date: "2025-04-24"
 layout: "blog-layout"
 ---

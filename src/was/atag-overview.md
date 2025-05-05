@@ -1,8 +1,8 @@
 ---
 title: "Authoring Tool Accessibility Guidelines Overview"
 description: "An overview of w3c authoring tool accessibility guidelines"
-tags: ["atag", "tutorial"]
-permalink: "tutorial/{{ title | slug }}/"
+tags: ["atag", "was"]
+permalink: "was/{{ title | slug }}/"
 date: "2025-04-01"
 layout: "blog-layout"
 ---

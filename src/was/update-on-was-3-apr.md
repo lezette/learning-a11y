@@ -1,8 +1,8 @@
 ---
 title: "Using Voice Control on IOS"
 description: "April 03, 2025, using Voice control"
-tags: ["journal", "tutorial", "assistve-tech"]
-permalink: "tutorial/{{ title | slug }}/"
+tags: ["journal", "was", "assistve-tech"]
+permalink: "was/{{ title | slug }}/"
 date: "2025-04-03"
 layout: "blog-layout"
 ---
