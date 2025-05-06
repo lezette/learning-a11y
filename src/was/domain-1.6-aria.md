@@ -71,6 +71,7 @@ layout: "blog-layout"
   - ARIA relationships like `aria-owns`, `aria-activedescendant`, `aria-describedby` — I get what they do, but I'm still
   learning *when* it's appropriate to use them.
 
-  <p>Next up: <strong>European Accessibility Standard EN 301 549</strong> I finally got to this bridge. </p>
+  <p>Next up: <strong>European Accessibility Standard EN 301 549</strong> I finally got to this bridge I feel like I'll
+    be reading government documents for this part 😅.</p>
 
 </div>
