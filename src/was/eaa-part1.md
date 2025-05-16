@@ -1,7 +1,7 @@
 ---
 title: 'Side Note - The European Accessibility Act (EAA)'
 description: 'WAS Log 04'
-tags: ['was', 'aria', 'journal']
+tags: ['was', 'en301549', 'journal']
 permalink: 'was/{{ title | slug }}/'
 date: '2025-05-12'
 layout: 'blog-layout'
