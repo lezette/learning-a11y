@@ -115,7 +115,7 @@ layout: 'blog-layout'
     actions.</p>
 
   <hr />
-  <p><strong>Up next:</strong> Clause 6, The Web Section. This is the part where EN 301 549 refrences WCAG</p>
+  <p><strong>Up next:</strong> Clause 6, ICT with two-way voice communication.</p>
   <hr />
 
   <h3>Check-In</h3>
