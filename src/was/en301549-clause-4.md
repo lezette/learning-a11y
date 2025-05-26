@@ -1,5 +1,5 @@
 ---
-title: 'EN 301 549 - Clause 4'
+title: 'EN 301 549 - Clause 4 Functional Performance'
 description: 'WAS Log 05'
 tags: ['was', 'en301549', 'journal']
 permalink: 'was/{{ title | slug }}/'
@@ -14,7 +14,6 @@ layout: 'blog-layout'
 
   <p>Clause 4 starts with <strong>why</strong> the rest of the standard exists. It's like saying: <q>Let's talk about
       what people actually need before we get into how you're going to meet those needs.</q></p>
-
 
   <h4>Clause 4.2 - Functional Performance Statements</h4>
   <p>Clause 4.2 lists out 11 functional needs, basically saying <q>your product should let people:</q></p>

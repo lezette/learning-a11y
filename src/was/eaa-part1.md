@@ -11,8 +11,7 @@ layout: 'blog-layout'
   <h3>A Quick Detour into the European Accessibility Act (EAA)</h3>
 
   <p>While reading resourses EN 301 549, I kept seeing the <strong>European Accessibility Act (EAA)</strong> pop up,
-    especially in
-    updates to the standard. So I paused to read about it a bit, and here's what I picked up:
+    especially in updates to the standard. So I paused to read about it a bit, and here's what I picked up:
   </p>
 
   <h4>What the EAA Is</h4>
@@ -24,13 +23,13 @@ layout: 'blog-layout'
   <h4>What the EAA Covers</h4>
   <p>The EAA covers to a broad set of ICT-related areas, including:</p>
 
-  - Websites and mobile apps of private businesses
-  - E-commerce platforms
-  - E-books and e-readers
-  - Banking services and terminals (like ATMs)
-  - Ticket machines and check-in kiosks
-  - Transport information services
-  - Telecom services (like calls, messaging, 112 emergency access)
+- Websites and mobile apps of private businesses
+- E-commerce platforms
+- E-books and e-readers
+- Banking services and terminals (like ATMs)
+- Ticket machines and check-in kiosks
+- Transport information services
+- Telecom services (like calls, messaging, 112 emergency access)
 
   <h4>How It Relates to EN 301 549</h4>
 
@@ -55,7 +54,6 @@ layout: 'blog-layout'
     enforcement), understanding
     the EAA gives good context for why accessibility standards are expanding.</p>
 
-
   <h4>Who Needs to Comply?</h4>
   <p>Compliance with EN 301 549 has been mandatory for EU public sector websites and mobile applications since 2019
     under the Web Accessibility Directive. With the European Accessibility Act (EAA) set to take effect in June 2025,
@@ -68,7 +66,6 @@ layout: 'blog-layout'
     standard. AS EN 301 549 and CAN/ASC - EN 301 549, respectively. Other nations, including Japan, India, and Kenya,
     are
     also developing accessibility standards inspired by EN 301 549,</p>
-
 
   <p>Next up: <strong>EN 301 549</strong> itself, the tech standard that translates all this into concrete requirements
     (and tables 😅).</p>
