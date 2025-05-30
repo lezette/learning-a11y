@@ -1,5 +1,5 @@
 ---
-title: 'EN 301 549 - Clause 4 Functional Performance'
+title: 'EN 301 549 Clause 4 - Functional Performance'
 description: 'WAS Log 05'
 tags: ['was', 'en301549', 'journal']
 permalink: 'was/{{ title | slug }}/'
@@ -8,7 +8,7 @@ layout: 'blog-layout'
 ---
 
 <div class="blog">
-  <h3>Clause 4 - Functional Performance (EN 301 549)</h3>
+  <h3>Functional Performance</h3>
   <p>So, the <strong>normative part</strong> of EN 301 549 starts from <strong>Clause 4</strong>, and honestly? I like
     that it doesn't just jump straight into standards and technical specs. </p>
 

@@ -1,10 +1,10 @@
 ---
-title: "So I am definitely doing this!"
-description: "I working towards becoming a WAS (Web Accessibility Specialist)"
-date: "2025-03-01"
-tags: ["journal", "was"]
-permalink: "was/{{ title | slug }}/"
-layout: "blog-layout"
+title: 'So I am definitely doing this!'
+description: 'I working towards becoming a WAS (Web Accessibility Specialist)'
+date: '2025-03-01'
+tags: ['journal', 'was']
+permalink: 'was/{{ title | slug }}/'
+layout: 'blog-layout'
 ---
 
 <div class="blog">

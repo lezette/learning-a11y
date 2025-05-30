@@ -1,5 +1,5 @@
 ---
-title: 'EN 301 549 - Clause 5 Generic Requirements'
+title: 'EN 301 549 Clause 5 - Generic Requirements'
 description: 'WAS Log 05'
 tags: ['was', 'en301549', 'journal']
 permalink: 'was/{{ title | slug }}/'
@@ -8,7 +8,7 @@ layout: 'blog-layout'
 ---
 
 <div class="blog">
-  <h3>Clause 5 - Generic Requirements (EN 301 549)</h3>
+  <h3>Generic Requirements</h3>
 
   <p>Clause 5 is like the <strong>foundational accessibility reality check</strong>. It showed me that real
     accessibility is about doing everything in thoughtful, inclusive layers.</p>
@@ -100,7 +100,6 @@ layout: 'blog-layout'
   </ul>
   <p>It also says that if you have a key repeat feature, it should be adjustable. So if someone needs more time to
     release a key, they can set it up that way.</p>
-
 
   <h4>5.8 Double-Strike Key Acceptance</h4>
   <p>This part focuses on accessibility for people with tremors, or inconsistent movement. It ensures that users can
