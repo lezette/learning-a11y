@@ -1,10 +1,10 @@
 ---
-title: "Journey to WAS update, Monday, March 17 2025"
-description: "My journey to WAS update March 17th 2025"
-tags: ["journal", "was"]
-permalink: "was/{{ title | slug }}/"
-date: "2025-03-17"
-layout: "blog-layout"
+title: 'WCAG Understandable principle'
+description: 'My journey to WAS update March 17th 2025'
+tags: ['journal', 'was']
+permalink: 'was/{{ title | slug }}/'
+date: '2025-03-17'
+layout: 'blog-layout'
 ---
 
 <div class="blog">

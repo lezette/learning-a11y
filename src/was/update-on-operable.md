@@ -1,10 +1,10 @@
 ---
-title: "Journey to WAS update, Monday March 10 2025"
-description: "My journey to WAS update March 10th 2025"
-tags: ["was", "journal"]
-permalink: "was/{{ title | slug }}/"
-date: "2025-03-10"
-layout: "blog-layout"
+title: 'WCAG Operable Principle '
+description: 'My journey to WAS update March 10th 2025'
+tags: ['was', 'journal']
+permalink: 'was/{{ title | slug }}/'
+date: '2025-03-10'
+layout: 'blog-layout'
 ---
 
 <div class="blog">
@@ -12,8 +12,7 @@ layout: "blog-layout"
   <h3>My Journey to WAS update</h3>
 
   <p>So, Last Thursday, I published a <a href="/tutorial/a-deep-dive-on-the-perceivable-principle/">deep dive on the
-      Perceivable
-      principle</a>, covering all its guidelines, success criteria, and tips on testing if a webpage is perceivable.
+      Perceivable principle</a>, covering all its guidelines, success criteria, and tips on testing if a webpage is perceivable.
   </p>
 
   <p>I had so much fun writing that as I was revisiting what I covered already. I found it impressive that I could cover
