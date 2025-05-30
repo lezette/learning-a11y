@@ -63,12 +63,21 @@ module.exports = function (config) {
     return getYear(new Date());
   });
 
-  // Add pages collection
   config.addCollection("pages", function (collections) {
-    return collections.getFilteredByTag("page").sort(function (a, b) {
-      return a.data.order - b.data.order;
+    return collections.getFilteredByTag("page").sort((a, b) => {
+      // If one of the pages is "Tutorials", force it to the bottom
+      const aIsTutorials = a.data.title === "Tutorials";
+      const bIsTutorials = b.data.title === "Tutorials";
+
+      if (aIsTutorials && !bIsTutorials) return 1;  // a should come after b
+      if (!aIsTutorials && bIsTutorials) return -1; // a should come before b
+      if (aIsTutorials && bIsTutorials) return 0;   // both are Tutorials
+
+      // Otherwise, sort by order or title
+      return (a.data.order || 0) - (b.data.order || 0);
     });
   });
+
 
   config.addCollection("was", function (collectionApi) {
     return collectionApi.getFilteredByTag("was").reverse();
