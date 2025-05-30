@@ -66,8 +66,8 @@ module.exports = function (config) {
   config.addCollection("pages", function (collections) {
     return collections.getFilteredByTag("page").sort((a, b) => {
       // If one of the pages is "Tutorials", force it to the bottom
-      const aIsTutorials = a.data.title === "Tutorials";
-      const bIsTutorials = b.data.title === "Tutorials";
+      const aIsTutorials = a.data.isTutorials;
+      const bIsTutorials = b.data.isTutorials;
 
       if (aIsTutorials && !bIsTutorials) return 1;  // a should come after b
       if (!aIsTutorials && bIsTutorials) return -1; // a should come before b
