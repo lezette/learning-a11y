@@ -9,9 +9,6 @@ layout: 'blog-layout'
 
 <div class="blog">
   <h3>Generic Requirements</h3>
-
-  <p>Clause 5 is like the <strong>foundational accessibility reality check</strong>. It showed me that real
-    accessibility is about doing everything in thoughtful, inclusive layers.</p>
   <p>This section coveres:</p>
 
   <ul>
