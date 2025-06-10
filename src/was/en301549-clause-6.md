@@ -128,6 +128,8 @@ layout: 'blog-layout'
           be used.
         </li>
       </ul>
+      <p class="note my-5">You need to meet the general requirement of Clause 5 as well as clause 8 when you procure or
+        develop hardware.</p>
     </li>
     <li><strong>Hardware Products with Speech Output</strong>
       <ul>
