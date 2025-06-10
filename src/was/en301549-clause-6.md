@@ -1,0 +1,190 @@
+---
+title: 'EN 301 549 Clause 6 - 8 Overview'
+description: 'WAS Log 06'
+tags: ['was', 'en301549', 'journal']
+permalink: 'was/{{ title | slug }}/'
+date: '2025-05-29'
+layout: 'blog-layout'
+---
+
+<div class="blog">
+
+  <p>Here is my summary of EN 301 549 Clauses 6, 7, and 8</p>
+
+  <h3>Clause 6: ICT with two-way voice communication</h3>
+  <p>This clause focuses on accessibility requirements for ICT that enables two or more people to communicate using
+    their voices, such as door entry phones or digital meeting systems. It includes specific requirements for various
+    aspects of two-way voice communication:</p>
+  <ul>
+    <li><strong>Audio Bandwidth for Speech:</strong> The ICT must be able to encode and decode two-way voice
+      communication with a frequency range having an upper limit of at least 7000 Hz, which is crucial for good audio
+      quality, especially for users with hearing impairments</li>
+    <li><strong>Real-Time Text (RTT) Functionality</strong>
+      <ul>
+        <li>If two-way voice communication is provided, the ICT must also offer a means for two-way RTT communication,
+          RTT is text that's sent instantly as it is typed, similar to a chat function.
+          This can be provided by default or added later, potentially requiring additional hardware or software.</li>
+        <li>The ICT should allow users to simultaneously use voice and RTT through a single connection.</li>
+        <li>Displayed sent text must be visually differentiated and separated from received text. The send/receive
+          direction of text must be programmatically determinable (unless closed functionality), to let screen readers
+          to distinguish between incoming and outgoing text.</li>
+        <li>Speaker identification for voice users should also be provided for RTT.</li>
+        <li>A real-time visual indicator of audio activity on the display is required to inform users who cannot hear
+          when someone is speaking.</li>
+        <li>RTT input must be transmitted to the network or platform with minimal delay, ideally less than 500 ms, for a
+          continuous communication experience.</li>
+        <li>RTT is particular for users who cannot hear or speak</li>
+      </ul>
+    </li>
+    <li><strong>Caller Identification:</strong> If the ICT provides caller identification or similar telecommunications
+      functions, this information must be available in text form and be programmatically determinable, unless the
+      functionality is closed.</li>
+    <li><strong>Alternatives to Voice-Based Services:</strong> For real-time voice-based communication (e.g., voicemail,
+      auto-attendant), the ICT must offer alternatives that allow users to access information and perform tasks without
+      needing to hear or speak. A combination of audio, real-time text, and video can meet this requirement.</li>
+    <li><strong>Video Communication:</strong> This section includes requirements for users who rely on sign language or
+      lip-reading, such as supporting QVGA resolution (320 x 240) and a frame rate of at least 20 Frames Per Second
+      (FPS). There should be a maximum time difference of 100 ms between speech audio and video. A visual indicator of
+      audio activity and speaker identification for sign language users are also required.</li>
+    <li><strong>Alternatives to Video-Based Services: </strong> If real-time video-based communication is provided,
+      alternatives must allow users to access information and performtasks without vision, hearing, or speech, as
+      applicable</li>
+  </ul>
+  <h4>Clause 6 User Group</h4>
+  <ul>
+    <li>Clause 6 is primiarly for users without hearing (WH), those with limited hearing (LH) and users without vocal
+      capabilities (WC)</li>
+  </ul>
+
+
+
+  <h3>Clause 7: ICT with video capabilities</h3>
+  <p>This clause focuses on making video content accessible. Key aspects include:</p>
+  <ul>
+    <li><strong>Captions:</strong> Written versions of spoken dialogue and other sounds in a video, helping
+      hard-of-hearing users understand the
+      content.</li>
+    <li><strong>Closed captions:</strong> Captions that users can choose to display or hide.</li>
+    <li><strong>Audio Description:</strong> An audio track describing visual information not conveyed by sound, intended
+      for visually impaired users.</li>
+    <li><strong>Caption Processing Technology</strong>
+      <ul>
+        <li><strong>Captioning Playback:</strong> When ICT displays video with closed captions, users must be able to
+          view and select available captions (e.g., different languages, timing, color, positioning).</li>
+        <li><strong>Captioning Synchronization:</strong> Captions must be synchronized with the audio, generally within
+          100 ms of the corresponding time stamp for recorded material or availability for live captions.</li>
+        <li><strong>Preservation of Captioning:</strong> Caption data must be preserved when video is transmitted,
+          converted, or recorded so that accessibility features remain intact.</li>
+        <li><strong>Captions Characteristics:</strong> Users should be able to adapt the displayed characteristics of
+          captions (e.g., font, color), unless they are unmodifiable characters.</li>
+        <li><strong>Spoken Subtitles:</strong> A mode of operation should be provided to allow spoken output of
+          available captions if their content is programmatically determinable.</li>
+      </ul>
+    </li>
+    <li><strong>Audio Description Technology</strong>
+      <ul>
+        <li><strong>Audio Description Playback:</strong> The ICT must provide a mechanism to select and play available
+          audio descriptions, either through a dedicated feature or by allowing selection of different audio tracks.
+        </li>
+        <li><strong>Audio Description Synchronization:</strong> Synchronization between the video content and the audio
+          description must be maintained.</li>
+        <li><strong>Preservation of Audio Description:</strong> Audio description data must be preserved during
+          transmission, conversion, or recording of video to ensure it can be played back consistently.</li>
+      </ul>
+    </li>
+    <li><strong>User Controls for Captions and Audio Description</strong> Controls to activate captions and audio
+      descriptions must be at the same level of interaction as other primary media controls, where software controls
+      exist. It is considered best practice to include controls for users to set these features on or off by default.
+    </li>
+  </ul>
+
+  <h4>Clause 7 User Group</h4>
+  <ul>
+    <li>Captioning directly supports users without hearing (WH) and limited hearing (LH)</li>
+    <li>Audio descrption is essential for users without vision (WV) and with limited vision (LV)</li>
+    <li>Secondary impact for users with limited coginition
+      <ul>
+        <li>Captions can help reinforce the understanding of spoken dialog especially if the dialog is complex or fast
+        </li>
+        <li>Audio descriptions can help clarify complex visual scenes or actions that can be confusing</li>
+      </ul>
+    </li>
+  </ul>
+
+
+  <h3>Clause 8: Hardware</h3>
+  <p>This clause addresses accessibility requirements for ICT hardware, including its physical components and how users
+    physically interact with it. It is a detailed chapter with many specific measurements.</p>
+
+  <ul>
+    <li><strong>General Requirements</strong>
+      <ul>
+        <li>The generic requirements outlined in Clause 5 also apply to hardware.</li>
+        <li><strong>Standard Connections:</strong> ICT must provide at least one input and/or output connection that
+          conforms to an industry-standard, non-proprietary format (e.g., USB, Bluetooth), directly or via commercially
+          available adapters, to ensure compatibility with assistive technologies.</li>
+        <li>Colour: Color cannot be the sole visual means of conveying information, indicating an action, prompting a
+          response, or distinguishing a visual element. Alternative methods like text, shapes, or different sizes should
+          be used.
+        </li>
+      </ul>
+    </li>
+    <li><strong>Hardware Products with Speech Output</strong>
+      <ul>
+        <li><strong>Speech Volume Gain:</strong> Hardware with speech output must allow users to adjust the volume over
+          a range of at least 18 dB. If incremental volume control is provided, there must be at least one step that is
+          12 dB above the lowest setting.</li>
+        <li><strong>Magnetic Coupling </strong> (aka Inductive Coupling) Communication devices normally held to the ear
+          (fixed-line or wireless) with speech output must provide magnetic coupling compatible with hearing aids. This
+          makes hearing aid better for users by: bypassing background noise, resulting in clearer audio (Hearing loop),
+          preventing feedback or whistling when talking on the phone (Telecoil).
+        </li>
+      </ul>
+    </li>
+    <li><strong>Stationary ICT (Physical Access)</strong> This section ensures that stationary ICT (like ATMs, ticket
+      machines, or information kiosks) is physically accessible to as many users as possible, including wheelchair users
+      and those with limited reach.
+      <ul>
+        <li><strong>Clear Floor or Ground Space:</strong> Requirements specify minimum clear floor areas around
+          stationary ICT to allow physical access for users with assistive technology. Changes in floor level within or
+          entering stationary ICT must be ramped with a slope no steeper than 1:48, with exceptions for smaller changes.
+        </li>
+        <li><strong>Approach:</strong> At least one full side of an access space inside stationary ICT must be
+          unobstructed. Minimum dimensions for forward and parallel approaches are specified for ICT in closed
+          environments or alcoves.</li>
+        <li><strong>Knee and Toe Clearance:</strong> Specific minimum dimensions are provided for knee and toe clearance
+          under obstacles that are integral parts of the ICT, allowing wheelchair users to approach operable parts
+          without hindrance.</li>
+        <li><strong>Reach Range:</strong> Requirements for both forward and side reach (unobstructed and obstructed)
+          define the maximum and minimum heights for operable parts.</li>
+        <li><strong>Visibility:</strong> Display screens must be legible from a point 1015 mm (40 inches) above the
+          center of the operating area to accommodate users in wheelchairs.</li>
+        <li><strong>Installation Instructions:</strong> Stationary ICT must come with installation instructions that
+          guide how to install it in an accessible manner, adhering to relevant built environment accessibility
+          requirements or, if none, to the standard's dimensions.
+        </li>
+      </ul>
+    </li>
+    <li><strong>Mechanically Operable Parts</strong>
+      <ul>
+        <li><strong>Numeric Keys:</strong> Physical numeric keypads arranged in a rectangular layout must have the
+          number five key tactilely distinct from others for users who cannot see.</li>
+        <li><strong>Operation of Mechanical Parts:</strong> If operating a control requires grasping, pinching, or
+          twisting, an accessible alternative that does not require these actions must be provided. Similarly, if a
+          control requires a force greater than 22.2 N, an alternative requiring less force must be available.</li>
+        <li><strong>Keys, Tickets, and Fare Cards:</strong> If the orientation of these items is important for use, they
+          must have a tactilely discernible orientation.</li>
+      </ul>
+    </li>
+    <li><strong>Tactile Indication of Speech Mode:</strong> For shared ICT with speech output, a tactile indication must
+      be provided to show how to initiate or if the speech mode is on or off</li>
+  </ul>
+  <h4>Clause 8 User Group</h4>
+  <ul>
+    <li>Hearing aid compartibility requirement are primiarly for users with Limited hearing (LH)</li>
+    <li>Physical access requirement supports users with limited reach (LR) and users with limited manipulation or
+      strength (LMS)</li>
+    <li>Non visual status indicator are key for users without vision (WV) and users with limited vision (LV)</li>
+  </ul>
+
+</div>
