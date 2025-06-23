@@ -48,4 +48,9 @@ layout: 'blog-layout'
   <p>I like that Clause 4 reframe accessibility as not just technical compliance, but human-centered design. To me it
     feels like a pep talk before all the technical clauses, like saying <q>This is why we're doing this</q>.</p>
 
+  <p>I have updated my <a
+      href="https://docs.google.com/spreadsheets/d/1gs3P-1F4ATPrsx87_16RoQVLZVaIRI5Np2rEhnIL9fM/edit?gid=1461437492#gid=1461437492"
+      target="_blank" rel="noopener noreferrer">google sheet</a> to contain all of the normative clauses for EN 301 549
+  </p>
+
 </div>
