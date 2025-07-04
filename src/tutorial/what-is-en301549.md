@@ -314,13 +314,30 @@ layout: 'blog-layout'
   </ul>
 
   <h3>Conclusion</h3>
-  <p>EN 301 549 is more than just a European accessibility standard, it's a practical, far-reaching framework that helps
-    bridge the gap between guidelines like WCAG and real-world conformance across all kinds of technology.</p>
+  <p>EN 301 549 is more than just a European accessibility standard, it brings accessibility into every layer of the
+    user experience.</p>
   <p>It goes beyond websites, or checklists, and into system-wide accessibility that includes hardware, documents,
     support services, and even emergency service access.</p>
-  <p>Whether you're prepping for the WAS exam, building a global product, or shaping policy in your org, EN 301 549
+  <p>If you're prepping for the WAS exam, building a global product, or shaping policy in your org, EN 301 549
     helps you level up.</p>
-  <hr />
+  <p>You can read the full spec at <a
+      href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" target="_blank"
+      rel="noopener noreferrer">EN 301 549 v3.2.1 (ETSI Official Site)</a></p>
   <p>If you're new to this standard, I hope this guide gave you a clearer picture of what it covers and how to use it.
   </p>
+
+  <hr />
+  <h3>Resources</h3>
+  <ul>
+    <li><a href="https://www.youtube.com/playlist?list=PLfCFZkKjngqrnEaIymHKvsym025w0cOF3" target="_blank"
+        rel="noopener noreferrer">Youtube: Introduction to the EN 301 549</a></li>
+    <li><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf"
+        target="_blank" rel="noopener noreferrer">EN 301 549 V3.2.1 (2021-03)</a></li>
+    <li><a href="https://digital-strategy.ec.europa.eu/en/policies/latest-changes-accessibility-standard"
+        target="_blank" rel="noopener noreferrer">Web accessibility standards - latest changes</a></li>
+    <li><a href="https://www.deque.com/en-301-549-compliance/" target="_blank" rel="noopener noreferrer">Deque: EN 301
+        549: European standard for digital accessibility</a></li>
+    <li><a href="https://www.w3.org/WAI/cognitive/" target="_blank" rel="noopener noreferrer">Cognitive Accessibility at
+        W3C</a></li>
+  </ul>
 </div>
