@@ -32,21 +32,15 @@ layout: 'blog-layout'
     them interesting because I've already been implementing some of them, for example, focus appearance. I'll discuss
     them further in an upcoming deep-dive article dedicated specifically to the Operable principle.</p>
 
-  <p>I'll be conducting an audit for an actual client soon, and I'm excited about that. The previous audits I've done
-    were just me visiting random sites (including ones I've worked on) and performing audits on them.
-  </p>
-
-  <p>I have also been watching some videos about how different people approach accessibility audits. It's been really
+  <p>I have been watching some videos on how different people approach accessibility audits. It's been really
     insightful and interesting. I've seen people ask what the best tool for automated testing is, and honestly, in my
     opinion, I don't think there's a single best tool out there. You experiment with different tools and find what works
     best for you. If you're just starting out, you can check out Google Lighthouse; it's built into the Chrome browser.
-    I sometimes use WAVE or Arc Toolkit. Don't you worry your busy head; I'll definitely be sharing my process and tips
-    for conducting accessibility audits in a future article.</p>
+    I also use WAVE or Arc Toolkit. I'll definitely be sharing my process and tips for conducting accessibility audits in a future article.</p>
 
   <p>Also, I visited a big-name brand recently, and I've been feeling lazy about using a trackpad, so I
-    was navigating with my keyboard. I was quite shocked by how inaccessible the site was. The keyboard focus order was
-    jumping, and I was tabbing through hidden content. Then, they had accessibility overlays on the site that I couldn't
-    even open. Do not use accessibility overlays or widgets. Here's a list of reasons why:
+    was navigating with my keyboard. I was quite shocked by how inaccessible the site was. The keyboard focus order wasn't logical, and I was tabbing through hidden content. Then, they had accessibility overlays on the site that I couldn't
+    even open which is proof that a11y overlays don't help a11y. Here's a list of reasons why you should use a11y overlays:
   </p>
   <ul>
     <li>They typically can't achieve full compliance, so primarily relying on them tends to leave significant barriers
