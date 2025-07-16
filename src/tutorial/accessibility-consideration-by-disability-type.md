@@ -85,14 +85,16 @@ layout: 'blog-layout'
   </ul>
 
   <h3>Deafness</h3>
-  <p>Deafness means <strong>partial or complete hearing loss</strong> in one or both ears. </p>
+  <p>Another misconception is that people who are deaf only have complete hearing loss. Deafness means <strong>partial
+      or complete hearing loss</strong> in one or both ears. </p>
   <p>There are levels of deafness:</p>
   <ul>
     <li><strong>Mild</strong>: May miss soft sounds like whispering or background noise</li>
     <li><strong>Moderate</strong>: Trouble hearing normal conversation, especially in noise</li>
     <li><strong>Severe</strong>: Can only hear loud sounds or shouting</li>
     <li><strong>Profound</strong>: May hear very loud sounds or feel vibrations, but not speech</li>
-    <li><strong>Deaf (capital "D")</strong>: Often used by those who identify with Deaf culture</li>
+    <li><strong>Deaf (capital "D")</strong>: Often used by those who identify with Deaf culture. People who are Deaf
+      often use sign language as their primary language</li>
   </ul>
   <p>Hearing loss affects people of all ages and can be caused by many different factors. There are two main types:</p>
   <ul>
