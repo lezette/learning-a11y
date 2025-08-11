@@ -76,7 +76,7 @@ layout: 'blog-layout'
   <p>APG provides two examples of the tab behavious:</p>
   <ul>
     <li><strong>Tabs With Automatic Activation:</strong> The tabs are automatically activated as they receive focus, and
-      the respective panel is displayed. This behavior is should ideally be the default. However, this behaviour is only
+      the respective panel is displayed. This behavior should ideally be the default. However, this behaviour is only
       recommended when switching tabs does not cause content loading delays or layout shifts. If delays are present,
       manual activation should be used to avoid a frustrating user experience.
     </li>
