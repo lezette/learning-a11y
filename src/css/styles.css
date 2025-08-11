@@ -57,11 +57,11 @@ em {
   }
 
   ul {
-    @apply list-disc ml-10 space-y-2;
+    @apply list-disc ml-10 my-2.5 space-y-3;
   }
 
   ol {
-    @apply list-decimal ml-10 space-y-2;
+    @apply list-decimal ml-10 my-2.5 space-y-4;
   }
 
   mark {
@@ -70,7 +70,7 @@ em {
 
   code,
   kbd {
-    @apply bg-gray-700 dark:bg-[#424242] text-white px-1.5 py-0.5 rounded-md;
+    @apply bg-gray-700 dark:bg-[#424242] text-white px-1.5 py-0.5 rounded-md font-mono;
     font-size: .875em;
   }
 
