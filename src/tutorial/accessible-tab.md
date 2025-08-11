@@ -73,7 +73,7 @@ layout: 'blog-layout'
   </ul>
 
   ### Tab Behaviors
-  <p>APG provides two examples of the tab behavious:</p>
+  <p>APG provides two examples of the tab behaviour:</p>
   <ul>
     <li><strong>Tabs With Automatic Activation:</strong> The tabs are automatically activated as they receive focus, and
       the respective panel is displayed. This behavior should ideally be the default. However, this behaviour is only
@@ -93,9 +93,9 @@ layout: 'blog-layout'
       <code>tabindex="-1"</code>. This ensures that keyboard and screen reader users can move between content
       efficiently without having to go through all of the tabs.
     </li>
-    <li><strong>Tabpanel Focus:</strong>The tabpanel has a tabindex="0" to make it easy for screen reader users to move
+    <li><strong>Tabpanel Focus:</strong> The tabpanel has a tabindex="0" to make it easy for screen reader users to move
       from a tab to the beginning of the tabpanel content.</li>
-    <li><strong>Keyboard Navigation:</strong>Keyboard users can navigate between tabs using the left and right arrow
+    <li><strong>Keyboard Navigation:</strong> Keyboard users can navigate between tabs using the left and right arrow
       keys. The tab navigation is looped, so if the user is at the beginning of the tab list and presses the left arrow
       key, focus will move to the last tab.
     </li>
